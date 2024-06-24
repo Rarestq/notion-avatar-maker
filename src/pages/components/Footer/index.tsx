@@ -14,15 +14,15 @@ export default function Footer() {
         >
           {t(`github`)}
         </a>
-        <span className="mx-2">·</span>
+        {/* <span className="mx-2">·</span>
         <a
           className="transition hidden md:inline-block hover:underline"
           href="https://dribbble.com/phillzou"
         >
           {t(`dribbble`)}
-        </a>
+        </a> */}
         <span className="mx-2 hidden md:inline-block">·</span>
-        <a className="hover:underline" href="https://twitter.com/phillzou">
+        <a className="hover:underline" href="https://twitter.com/rarestzhou">
           {t(`twitter`)}
         </a>
         <span className="mx-2">·</span>
