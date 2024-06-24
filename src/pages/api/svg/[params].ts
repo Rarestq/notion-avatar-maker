@@ -8,7 +8,7 @@ async function getBrowserInstance() {
   if (!executablePath) {
     // running locally
     // eslint-disable-next-line
-    const puppeteer = require('puppeteer');
+    const puppeteer = require('puppeteer-core');
     return puppeteer.launch({
       args: chromium.args,
       headless: true,
