@@ -17,6 +17,7 @@ async function getBrowserInstance() {
         height: 720,
       },
       ignoreHTTPSErrors: true,
+      ignoreDefaultArgs: ['--disable-extensions'],
     });
   }
 
@@ -29,6 +30,7 @@ async function getBrowserInstance() {
     executablePath,
     headless: chromium.headless,
     ignoreHTTPSErrors: true,
+    ignoreDefaultArgs: ['--disable-extensions'],
   });
 }
 
