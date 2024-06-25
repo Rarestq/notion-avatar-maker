@@ -5,8 +5,9 @@ import { useTranslation } from 'next-i18next';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AvatarEditor from './components/AvatarEditor';
+import Link from 'next/link';
 
-const URL = `https://notion-avatar.vercel.app/`;
+const URL = `https://notion-avatar-maker.com/`;
 
 const Home: NextPage = () => {
   const { t } = useTranslation(`common`);
@@ -18,71 +19,85 @@ const Home: NextPage = () => {
           rel="apple-touch-icon"
           sizes="57x57"
           href="/favicon/apple-icon-57x57.png"
+          alt="apple-icon-57x57"
         />
         <link
           rel="apple-touch-icon"
           sizes="60x60"
           href="/favicon/apple-icon-60x60.png"
+          alt="apple-icon-60x60"
         />
         <link
           rel="apple-touch-icon"
           sizes="72x72"
           href="/favicon/apple-icon-72x72.png"
+          alt="apple-icon-72x72"
         />
         <link
           rel="apple-touch-icon"
           sizes="76x76"
           href="/favicon/apple-icon-76x76.png"
+          alt="apple-icon-76x76"
         />
         <link
           rel="apple-touch-icon"
           sizes="114x114"
           href="/favicon/apple-icon-114x114.png"
+          alt="apple-icon-114x114"
         />
         <link
           rel="apple-touch-icon"
           sizes="120x120"
           href="/favicon/apple-icon-120x120.png"
+          alt="apple-icon-120x120"
         />
         <link
           rel="apple-touch-icon"
           sizes="144x144"
           href="/favicon/apple-icon-144x144.png"
+          alt="apple-icon-144x144"
         />
         <link
           rel="apple-touch-icon"
           sizes="152x152"
           href="/favicon/apple-icon-152x152.png"
+          alt="apple-icon-152x152"
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/favicon/apple-icon-180x180.png"
+          alt="apple-icon-180x180"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="192x192"
           href="/favicon/android-icon-192x192.png"
+          alt="apple-icon-192x192"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
           href="/favicon/favicon-32x32.png"
+          alt="favicon-32x32"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="96x96"
           href="/favicon/favicon-96x96.png"
+          alt="=favicon-96x96"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
           href="/favicon/favicon-16x16.png"
+          alt="favicon-16x16"
         />
+        <link rel="canonical" href={t(`canonical`)} />
         <link rel="manifest" href="/manifest.json" />
         <title>{t(`siteTitle`)}</title>
         <meta name="description" content={t(`siteDescription`)} />
@@ -98,10 +113,11 @@ const Home: NextPage = () => {
         <meta property="og:title" content={t(`siteTitle`)} />
         <meta property="og:description" content={t(`siteDescription`)} />
         <meta property="og:url" content={URL} />
-        <meta property="og:image" content="https://i.imgur.com/F5R0K03.png" />
+        {/* TODO by rarestzhou: 图片url替换 */}
+        <meta property="og:image" content="https://i.imgur.com/F5R0K03.png" /> 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://i.imgur.com/F5R0K03.png" />
-        <meta name="twitter:site" content="@phillzou" />
+        <meta name="twitter:site" content="@rarestzhou" />
         <meta name="twitter:title" content={t(`siteTitle`)} />
         <meta name="twitter:description" content={t(`siteDescription`)} />
       </Head>
