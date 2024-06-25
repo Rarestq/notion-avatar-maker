@@ -100,7 +100,7 @@ const Home: NextPage = () => {
         <meta property="og:description" content={t(`siteDescription`)} />
         <meta property="og:url" content={URL} />
         {/* TODO by rarestzhou: 图片url替换 */}
-        <meta property="og:image" content="https://i.imgur.com/F5R0K03.png" /> 
+        <meta property="og:image" content="https://i.imgur.com/F5R0K03.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://i.imgur.com/F5R0K03.png" />
         <meta name="twitter:site" content="@rarestzhou" />
