@@ -3,7 +3,7 @@ import React from 'react';
 const FAQs = () => {
   const faqData = [
     {
-      question: "What is Notion-Avatar-Maker?",
+      question: 'What is Notion-Avatar-Maker?',
       answer: "Notion-Avatar-Maker is a tool that allows you to create custom Notion-style avatars for your social media profiles. You can customize the hair, eyes, mouth, head, beard, accessories, and facial hair of your avatar."
     },
     {
@@ -40,7 +40,7 @@ const FAQs = () => {
         </h2>
         <div className="space-y-8">
           {faqData.map((faq, index) => (
-            <div key={index} className="bg-white shadow-sm rounded-lg overflow-hidden">
+            <div key={faq.question} className="bg-white shadow-sm rounded-lg overflow-hidden">
               <div className="px-6 py-4">
                 <h3 className="text-lg font-medium text-gray-900 mb-2">
                   {faq.question}
