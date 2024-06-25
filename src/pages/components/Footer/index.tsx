@@ -19,7 +19,7 @@ export default function Footer() {
           {t(`twitter`)}
         </a>
         <span className="mx-2">·</span>
-        {/* TODO by rarestzhou: 等 notion affiliate 审核通过，替换成 affiliate 链接  mx-2 md:mx-4*/}
+        {/* TODO by rarestzhou: 等 notion affiliate 审核通过，替换成 affiliate 链接*/}
         <a className="hover:underline" href="https://www.notion.so/">
           {t(`notion`)}
         </a>
