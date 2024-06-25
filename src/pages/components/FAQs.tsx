@@ -11,6 +11,14 @@ const FAQs = () => {
       answer: 'A Notion avatar is a custom image that you can use to represent yourself on social media. You can use Notion-Avatar-Maker to create a custom Notion-style avatar for your socials.'
     },
     {
+      question: "How does Notion-Avatar-Maker work?",
+      answer: "Notion-Avatar-Maker operates by providing a user-friendly interface where you can select and customize various elements of your avatar, such as hairstyle, facial features, and accessories. Once you've designed your avatar to your liking, you can download it for use on social media or other platforms."
+    },
+    {
+      question: "How to use Notion-Avatar-Maker?",
+      answer: "To use Notion-Avatar-Maker, simply visit the https://notion-avatar-maker.com, explore the customization options available, and choose the styles you want for your avatar. Adjust the elements to match your desired look. After finalizing your design, you can download the avatar image to use as you wish."
+    },
+    {
       question: 'Is Notion-Avatar-Maker free?',
       answer: 'Yes, Notion-Avatar-Maker is free to use. You can create and download your custom Notion-style avatar without paying anything.'
     },
