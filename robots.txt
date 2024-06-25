@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://notion-avatar-maker.com/sitemap.xml
+Disallow: /cgi-bin/
