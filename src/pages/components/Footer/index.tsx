@@ -25,6 +25,11 @@ export default function Footer() {
         <a className="hover:underline" href="https://twitter.com/rarestzhou">
           {t(`twitter`)}
         </a>
+        <span className="mx-2 hidden md:inline-block">·</span>
+        {/* TODO by rarestzhou: 等 notion affiliate 审核通过，替换成 affiliate 链接 */}
+        <a className="hover:underline" href="https://www.notion.so/">
+          {t(`notion`)}
+        </a>
         <span className="mx-2">·</span>
         <a className="transition hover:underline" href={t(`coffeeUrl`)}>
           {t(`coffee`)}

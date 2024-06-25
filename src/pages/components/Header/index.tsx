@@ -7,7 +7,7 @@ export default function Header() {
       <div className="flex py-5 px-5 sm:px-16 md:px-32">
         <Image
           src="/logo.gif"
-          alt="Notion Avatar Logo"
+          alt="Notion-Avatar-Maker Logo"
           width={50}
           height={50}
         />

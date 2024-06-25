@@ -5,6 +5,7 @@ import { useTranslation } from 'next-i18next';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AvatarEditor from './components/AvatarEditor';
+import FAQs from './components/FAQs';
 
 const URL = `https://notion-avatar-maker.com/`;
 
@@ -99,19 +100,29 @@ const Home: NextPage = () => {
         <meta property="og:title" content={t(`siteTitle`)} />
         <meta property="og:description" content={t(`siteDescription`)} />
         <meta property="og:url" content={URL} />
-        {/* TODO by rarestzhou: 图片url替换 */}
-        <meta property="og:image" content="https://i.imgur.com/F5R0K03.png" />
+        <meta property="og:image" content="https://img.mini-url.top/file/3d4a0a5b382e710d9279d.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://i.imgur.com/F5R0K03.png" />
+        <meta name="twitter:image" content="https://img.mini-url.top/file/3d4a0a5b382e710d9279d.png" />
         <meta name="twitter:site" content="@rarestzhou" />
         <meta name="twitter:title" content={t(`siteTitle`)} />
         <meta name="twitter:description" content={t(`siteDescription`)} />
       </Head>
 
       <Header />
+      <div className="text-center">
+        <h1 className="text-4xl font-extrabold text-gray-900 mb-2">
+          Notion-Avatar-Maker
+        </h1>
+        <p className="text-gray-600 mb-8">
+        Notion-Avatar-Maker empowers users to create distinctive, customizable avatars,
+        <br />
+        perfect for personal branding on social platforms and creative projects.
+        </p>
+      </div>
       <main className="my-5">
         <AvatarEditor />
       </main>
+      <FAQs />
       <Footer />
     </>
   );
