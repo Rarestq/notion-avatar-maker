@@ -14,19 +14,12 @@ export default function Footer() {
         >
           {t(`github`)}
         </a>
-        {/* <span className="mx-2">·</span>
-        <a
-          className="transition hidden md:inline-block hover:underline"
-          href="https://dribbble.com/phillzou"
-        >
-          {t(`dribbble`)}
-        </a> */}
-        <span className="mx-2 hidden md:inline-block">·</span>
+        <span className="mx-2">·</span>
         <a className="hover:underline" href="https://twitter.com/rarestzhou">
           {t(`twitter`)}
         </a>
-        <span className="mx-2 hidden md:inline-block">·</span>
-        {/* TODO by rarestzhou: 等 notion affiliate 审核通过，替换成 affiliate 链接 */}
+        <span className="mx-2">·</span>
+        {/* TODO by rarestzhou: 等 notion affiliate 审核通过，替换成 affiliate 链接  mx-2 md:mx-4*/}
         <a className="hover:underline" href="https://www.notion.so/">
           {t(`notion`)}
         </a>
