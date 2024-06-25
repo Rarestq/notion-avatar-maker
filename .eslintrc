@@ -17,7 +17,11 @@
   "plugins": ["import", "jsx-a11y", "react", "prettier"],
   "extends": ["airbnb", "prettier", "next", "next/core-web-vitals"],
   "rules": {
-    "prettier/prettier": ["error", {"endOfLine": "auto"}],
+    "prettier/prettier": [
+      "error", {"endOfLine": "auto"}, 
+      "warn", {
+        "singleQuote": true
+      }],
     "camelcase": "off",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
