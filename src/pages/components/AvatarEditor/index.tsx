@@ -257,6 +257,7 @@ export default function AvatarEditor() {
                   width={30}
                   height={30}
                   src={flip ? '/icon/flip-left.svg' : '/icon/flip-right.svg'}
+                  alt='flip right or left'
                 />
               </button>
               <button
@@ -264,7 +265,7 @@ export default function AvatarEditor() {
                 className="w-8 h-8 sm:w-12 sm:h-12 tooltip ml-2"
                 onClick={onOpenPaletteModal}
               >
-                <Image width={30} height={30} src="/icon/palette.svg" />
+                <Image width={30} height={30} src="/icon/palette.svg" alt='palette' />
               </button>
             </div>
           </div>
@@ -285,6 +286,7 @@ export default function AvatarEditor() {
                     src={`/avatar/part/${type}/${type}-${
                       config[type as AvatarPart]
                     }.svg`}
+                    alt={`${type}-${config[type as AvatarPart]}`}
                     width={30}
                     height={30}
                   />
@@ -306,6 +308,7 @@ export default function AvatarEditor() {
                 <>
                   <Image
                     src={`/avatar/part/festival/${festival}/${festival}-${config[festival]}.svg`}
+                    alt={`${festival}-${config[festival]}`}
                     width={30}
                     height={30}
                   />
