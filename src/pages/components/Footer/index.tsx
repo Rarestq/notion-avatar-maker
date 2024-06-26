@@ -37,7 +37,7 @@ export default function Footer() {
         <span className="mx-2">·</span>
         <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
         <span className="mx-2">·</span>
-        <Link href="/terms-of-service" className="hover:underline">Terms &amp;Conditions</Link>
+        <Link href="/terms-of-service" className="hover:underline">Terms &amp; Conditions</Link>
       </div>
       <div className="text-gray-500 mt-3 px-6 text-center">
         <a

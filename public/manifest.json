@@ -1,6 +1,6 @@
 {
-  "name": "Notion Avatar Maker",
-  "short_name": "Notion Avatar",
+  "name": "Notion-Avatar-Maker",
+  "short_name": "Notion-Avatar-Maker",
   "theme_color": "#fffefc",
   "background_color": "#fffefc",
   "display": "standalone",
