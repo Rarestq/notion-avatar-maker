@@ -32,7 +32,9 @@ export default function Footer() {
           {t(`coffee`)}
         </a>
       </div>
-      <div className="text-gray-500 mt-3 px-6 text-center">
+      <div className="flex justify-center mt-3"> 
+        <Link href="/" className="hover:underline">Notion-Avatar-Maker</Link>
+        <span className="mx-2">·</span>
         <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
         <span className="mx-2">·</span>
         <Link href="/terms-of-service" className="hover:underline">Terms &amp;Conditions</Link>
