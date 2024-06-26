@@ -1,6 +1,6 @@
+import Link from 'next/link';
 import Image from 'next/legacy/image';
 import Decoration from './decoration';
-import Link from 'next/link';
 
 export default function Header() {
   return (
