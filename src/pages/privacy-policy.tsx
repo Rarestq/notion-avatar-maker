@@ -44,7 +44,7 @@ const PrivacyPolicy = () => {
 
           <h3 className="text-xl mb-4 text-black">Usage Data</h3>
           <p className="mb-6 text-gray-600">Usage Data is collected automatically when using the Service.</p>
-          <p className="mb-6 text-gray-600">Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+          <p className="mb-6 text-gray-600">Usage Data may include information such as Your Device&apos;s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
           <p className="mb-6 text-gray-600">When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
           <p className="mb-6 text-gray-600">We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
 
@@ -57,14 +57,14 @@ const PrivacyPolicy = () => {
             <li>Twitter</li>
             <li>LinkedIn</li>
           </ul>
-          <p className="mb-6 text-gray-600">If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service's account, such as Your name, Your email address, Your activities or Your contact list associated with that account.</p>
-          <p className="mb-6 text-gray-600">You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service's account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.</p>
+          <p className="mb-6 text-gray-600">If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service&apos;s account, such as Your name, Your email address, Your activities or Your contact list associated with that account.</p>
+          <p className="mb-6 text-gray-600">You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service&apos;s account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.</p>
 
           <h3 className="text-xl mb-4 text-black">Tracking Technologies and Cookies</h3>
           <p className="mb-6 text-gray-600">We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.</p>
           
           <h2 className="text-2xl mb-6 text-black">Purpose of Data Collection</h2>
-          <p className="mb-6 text-gray-600">The primary purpose of collecting your data is to process your orders and improve our website's functionality and services.</p>
+          <p className="mb-6 text-gray-600">The primary purpose of collecting your data is to process your orders and improve our website&apos;s functionality and services.</p>
 
           <h2 className="text-2xl mb-6 text-black">Data Sharing</h2>
           <p className="mb-6 text-gray-600">Notion-Avatar-Maker respects your privacy. We do not share your personal data with any third parties, except as necessary to process your orders or comply with legal requirements.</p>
@@ -78,7 +78,7 @@ const PrivacyPolicy = () => {
           <h2 className="text-2xl mb-6 text-black">Security of Your Personal Data</h2>
           <p className="mb-6 text-gray-600">The security of Your Personal Data is important to Notion-Avatar-Maker, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
 
-          <h2 className="text-2xl mb-6 text-black">Children's Privacy</h2>
+          <h2 className="text-2xl mb-6 text-black">Children&apos;s Privacy</h2>
           <p className="mb-6 text-gray-600">Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
 
           <h2 className="text-2xl mb-6 text-black">Updates to This Privacy Policy</h2>

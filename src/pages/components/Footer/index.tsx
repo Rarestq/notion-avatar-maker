@@ -1,12 +1,13 @@
 import { useTranslation } from 'next-i18next';
 import Image from 'next/legacy/image';
+import Link from 'next/link';
 
 export default function Footer() {
   const { t } = useTranslation(`common`);
 
   return (
     <footer className="flex flex-col items-center pb-4">
-      <Image src="/icon/line.svg" alt='line' width="125" height="54" />
+      <Image src="/icon/line.svg" alt="line" width="125" height="54" />
       <div className="flex justify-center mt-10">
         <a
           className="transition hover:underline"
@@ -23,18 +24,18 @@ export default function Footer() {
           {t(`notion`)}
         </a>
         <span className="mx-2">·</span>
+        <a className="hover:underline" href="mailto:support@notion-avatar-maker.com">
+          Support
+        </a>
+        <span className="mx-2">·</span>
         <a className="transition hover:underline" href={t(`coffeeUrl`)}>
           {t(`coffee`)}
         </a>
       </div>
       <div className="text-gray-500 mt-3 px-6 text-center">
-        <a href="/privacy-policy" className="hover:underline">
-          Privacy Policy
-        </a>
+        <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
         <span className="mx-2">·</span>
-        <a href="/terms-of-service" className="hover:underline">
-          Terms &amp;Conditions
-        </a>
+        <Link href="/terms-of-service" className="hover:underline">Terms &amp;Conditions</Link>
       </div>
       <div className="text-gray-500 mt-3 px-6 text-center">
         <a

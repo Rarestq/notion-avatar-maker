@@ -30,12 +30,12 @@ const TermsConditions = () => {
 
           <h2 className="text-2xl mb-6 text-black">Overview</h2>
           <p className="mb-6 text-gray-600">Welcome to Notion-Avatar-Maker!</p>
-          <p className="mb-6 text-gray-600">These terms and conditions outline the rules and regulations for the use of Notion-Avatar-Maker's Website, located at https://notion-avatar-maker.com/.</p>
+          <p className="mb-6 text-gray-600">These terms and conditions outline the rules and regulations for the use of Notion-Avatar-Maker&apos;s Website, located at https://notion-avatar-maker.com/.</p>
           <p className="mb-6 text-gray-600">By accessing this website we assume you accept these terms and conditions. Do not continue to use Notion-Avatar-Maker if you do not agree to take all of the terms and conditions stated on this page.</p>
 
           <h2 className="text-2xl mb-6 text-black">Cookies</h2>
-          <p className="mb-6 text-gray-600">We employ the use of cookies. By accessing Notion-Avatar-Maker, you agreed to use cookies in agreement with the Notion-Avatar-Maker's Privacy Policy. </p>
-          <p className="mb-6 text-gray-600">Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
+          <p className="mb-6 text-gray-600">We employ the use of cookies. By accessing Notion-Avatar-Maker, you agreed to use cookies in agreement with the Notion-Avatar-Maker&apos;s Privacy Policy. </p>
+          <p className="mb-6 text-gray-600">Most interactive websites use cookies to let us retrieve the user&apos;s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
 
           <h2 className="text-2xl mb-6 text-black">License</h2>
           <p className="mb-6 text-gray-600">Unless otherwise stated, Notion-Avatar-Maker and/or its licensors own the intellectual property rights for all material on Notion-Avatar-Maker. All intellectual property rights are reserved. You may access this from Notion-Avatar-Maker for your own personal use subjected to restrictions set in these terms and conditions.</p>
@@ -65,7 +65,7 @@ const TermsConditions = () => {
           <p className="mb-6 text-gray-600">We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
 
           <h2 className="text-2xl mb-6 text-black">Reservation of Rights</h2>
-          <p className="mb-6 text-gray-600">We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
+          <p className="mb-6 text-gray-600">We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it&apos;s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
 
           <h2 className="text-2xl mb-6 text-black">Disclaimer</h2>
           <p className="mb-6 text-gray-600">To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
