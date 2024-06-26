@@ -84,6 +84,7 @@ const Home: NextPage = () => {
           sizes="16x16"
           href="/favicon/favicon-16x16.png"
         />
+        <link rel="icon" href="/favicon/favicon.ico" />
         <link rel="canonical" href={t(`canonical`)} />
         <link rel="manifest" href="/manifest.json" />
         <title>{t(`siteTitle`)}</title>
@@ -94,7 +95,6 @@ const Home: NextPage = () => {
           content="/favicon/ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#fffefc" />
-        <meta content={t(`siteDescription`)} name="description" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={t(`siteTitle`)} />
         <meta property="og:title" content={t(`siteTitle`)} />

@@ -28,6 +28,15 @@ export default function Footer() {
         </a>
       </div>
       <div className="text-gray-500 mt-3 px-6 text-center">
+        <a href="/privacy-policy" className="hover:underline">
+          Privacy Policy
+        </a>
+        <span className="mx-2">·</span>
+        <a href="/terms-of-service" className="hover:underline">
+          Terms &amp;Conditions
+        </a>
+      </div>
+      <div className="text-gray-500 mt-3 px-6 text-center">
         <a
           href="https://abstractlab.gumroad.com/l/noto-avatar"
           className="hover:underline"
