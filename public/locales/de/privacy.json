@@ -1,0 +1,77 @@
+{
+    "privacyTitle": "Datenschutzerklärung | Notion-Avatar-Maker",
+    "privacyPolicy": {
+        "title": "Datenschutzerklärung für Notion-Avatar-Maker",
+        "lastUpdated": "Letzte Aktualisierung: 26. Juni 2024",
+        "overview": {
+            "title": "Überblick",
+            "content1": "Diese Datenschutzerklärung beschreibt unsere Richtlinien und Verfahren zur Erhebung, Nutzung und Offenlegung Ihrer Informationen, wenn Sie den Dienst nutzen, und informiert Sie über Ihre Datenschutzrechte und wie das Gesetz Sie schützt.",
+            "content2": "Wir verwenden Ihre personenbezogenen Daten, um den Dienst bereitzustellen und zu verbessern. Durch die Nutzung des Dienstes stimmen Sie der Erfassung und Nutzung von Informationen gemäß dieser Datenschutzerklärung zu."
+        },
+        "collectingAndUsing": {
+            "title": "Erhebung und Nutzung Ihrer personenbezogenen Daten",
+            "personalData": {
+                "title": "Personenbezogene Daten",
+                "content": "Während der Nutzung unseres Dienstes können wir Sie bitten, uns bestimmte persönlich identifizierbare Informationen bereitzustellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren. Persönlich identifizierbare Informationen können unter anderem umfassen:",
+                "name": "Name",
+                "email": "E-Mail-Adresse",
+                "paymentInfo": "Zahlungsinformationen"
+            },
+            "usageData": {
+                "title": "Nutzungsdaten",
+                "content1": "Nutzungsdaten werden automatisch bei der Nutzung des Dienstes erfasst.",
+                "content2": "Nutzungsdaten können Informationen wie die Internet-Protokoll-Adresse Ihres Geräts (z. B. IP-Adresse), Browsertyp, Browserversion, die Seiten unseres Dienstes, die Sie besuchen, die Uhrzeit und das Datum Ihres Besuchs, die auf diesen Seiten verbrachte Zeit, eindeutige Gerätekennungen und andere Diagnosedaten umfassen.",
+                "content3": "Wenn Sie über ein mobiles Gerät auf den Dienst zugreifen, können wir bestimmte Informationen automatisch erfassen, einschließlich, aber nicht beschränkt auf, den Typ des von Ihnen verwendeten mobilen Geräts, Ihre eindeutige Geräte-ID, die IP-Adresse Ihres mobilen Geräts, Ihr mobiles Betriebssystem, den Typ des von Ihnen verwendeten mobilen Internetbrowsers, eindeutige Gerätekennungen und andere Diagnosedaten.",
+                "content4": "Wir können auch Informationen erfassen, die Ihr Browser sendet, wenn Sie unseren Dienst besuchen oder wenn Sie über ein mobiles Gerät auf den Dienst zugreifen."
+            },
+            "thirdParty": {
+                "title": "Informationen von Drittanbieter-Sozialen-Medien-Diensten",
+                "content1": "Das Unternehmen ermöglicht es Ihnen, ein Konto zu erstellen und sich über die folgenden Drittanbieter-Sozialen-Medien-Dienste anzumelden und den Dienst zu nutzen:",
+                "google": "Google",
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter",
+                "linkedIn": "LinkedIn",
+                "content2": "Wenn Sie sich über einen Drittanbieter-Sozialen-Medien-Dienst registrieren oder uns anderweitig Zugriff gewähren, können wir personenbezogene Daten erfassen, die bereits mit dem Konto Ihres Drittanbieter-Sozialen-Medien-Dienstes verbunden sind, wie Ihren Namen, Ihre E-Mail-Adresse, Ihre Aktivitäten oder Ihre Kontaktliste, die mit diesem Konto verbunden ist.",
+                "content3": "Sie haben möglicherweise auch die Möglichkeit, zusätzliche Informationen über das Konto Ihres Drittanbieter-Sozialen-Medien-Dienstes mit dem Unternehmen zu teilen. Wenn Sie sich entscheiden, solche Informationen und personenbezogene Daten bereitzustellen, entweder bei der Registrierung oder anderweitig, erteilen Sie dem Unternehmen die Erlaubnis, diese in Übereinstimmung mit dieser Datenschutzerklärung zu verwenden, zu teilen und zu speichern."
+            },
+            "tracking": {
+                "title": "Verfolgungstechnologien und Cookies",
+                "content": "Wir verwenden Cookies und ähnliche Verfolgungstechnologien, um die Aktivität auf unserem Dienst zu verfolgen und bestimmte Informationen zu speichern. Verfolgungstechnologien, die verwendet werden, sind Beacons, Tags und Skripte, um Informationen zu sammeln und zu verfolgen und um unseren Dienst zu verbessern und zu analysieren."
+            }
+        },
+        "purpose": {
+            "title": "Zweck der Datenerfassung",
+            "content": "Der Hauptzweck der Erfassung Ihrer Daten besteht darin, Ihre Bestellungen zu bearbeiten und die Funktionalität und Dienstleistungen unserer Website zu verbessern."
+        },
+        "dataSharing": {
+            "title": "Datenteilung",
+            "content": "Notion-Avatar-Maker respektiert Ihre Privatsphäre. Wir teilen Ihre personenbezogenen Daten nicht mit Dritten, es sei denn, dies ist zur Bearbeitung Ihrer Bestellungen oder zur Einhaltung gesetzlicher Anforderungen erforderlich."
+        },
+        "deleteData": {
+            "title": "Löschen Ihrer personenbezogenen Daten",
+            "content1": "Sie haben das Recht, die Löschung oder Unterstützung bei der Löschung der von uns über Sie gesammelten personenbezogenen Daten zu verlangen.",
+            "content2": "Unser Dienst kann Ihnen die Möglichkeit bieten, bestimmte Informationen über Sie innerhalb des Dienstes zu löschen.",
+            "content3": "Sie können Ihre Informationen jederzeit aktualisieren, ändern oder löschen, indem Sie sich bei Ihrem Konto anmelden, falls Sie eines haben, und den Abschnitt mit den Kontoeinstellungen besuchen, der Ihnen die Verwaltung Ihrer personenbezogenen Informationen ermöglicht. Sie können uns auch kontaktieren, um Zugang zu, Berichtigung oder Löschung aller personenbezogenen Informationen zu verlangen, die Sie uns bereitgestellt haben.",
+            "content4": "Bitte beachten Sie jedoch, dass wir möglicherweise bestimmte Informationen aufbewahren müssen, wenn wir eine rechtliche Verpflichtung oder einen rechtmäßigen Grund dazu haben."
+        },
+        "security": {
+            "title": "Sicherheit Ihrer personenbezogenen Daten",
+            "content": "Die Sicherheit Ihrer personenbezogenen Daten ist Notion-Avatar-Maker wichtig, aber denken Sie daran, dass keine Methode der Übertragung über das Internet oder Methode der elektronischen Speicherung 100% sicher ist. Während wir uns bemühen, kommerziell akzeptable Mittel zu verwenden, um Ihre personenbezogenen Daten zu schützen, können wir deren absolute Sicherheit nicht garantieren."
+        },
+        "children": {
+            "title": "Datenschutz von Kindern",
+            "content": "Unser Dienst richtet sich nicht an Personen unter 13 Jahren. Wir sammeln wissentlich keine personenbezogenen Daten von Personen unter 13 Jahren. Wenn Sie ein Elternteil oder ein Vormund sind und wissen, dass Ihr Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte. Wenn wir feststellen, dass wir personenbezogene Daten von Personen unter 13 Jahren ohne Überprüfung der elterlichen Zustimmung gesammelt haben, unternehmen wir Schritte, um diese Informationen von unseren Servern zu entfernen."
+        },
+        "updates": {
+            "title": "Aktualisierungen dieser Datenschutzerklärung",
+            "content1": "Wir können unsere Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über alle Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen.",
+            "content2": "Wir werden Sie per E-Mail und/oder durch einen auffälligen Hinweis auf unserem Dienst informieren, bevor die Änderung wirksam wird und das Datum der \"letzten Aktualisierung\" oben in dieser Datenschutzerklärung aktualisieren.",
+            "content3": "Es wird Ihnen empfohlen, diese Datenschutzerklärung regelmäßig auf Änderungen zu überprüfen. Änderungen dieser Datenschutzerklärung sind wirksam, wenn sie auf dieser Seite veröffentlicht werden."
+        },
+        "contact": {
+            "title": "Kontaktieren Sie uns",
+            "content": "Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter support@notion-avatar-maker.com."
+        }
+    }
+}

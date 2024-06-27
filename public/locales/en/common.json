@@ -20,7 +20,7 @@
   "notion": "Notion",
   "contactUs": "Contact Us",
   "contactEmail": "support@notion-avatar-maker.com",
-  "illustrations": "Illustrations ",
+  "illustrations": "Copyright 2024. Illustrations ",
   "underDesign": "and under",
   "designedBy": "designed by",
   "license": "license",
@@ -30,6 +30,7 @@
   "modalHint": "Long press or click the right mouse button to save the avatar to your album",
   "modalCancel": "Cancel",
   "modalConfirm": "Confirm",
+  "siteName": "Notion-Avatar-Maker",
   "siteTitle": "Notion-Avatar-Maker: Create Your Notion-Style Avatars Online",
   "siteDescription": "Generate beautiful, simple Notion-style avatars for social media with Notion-Avatar-Maker. Customize or generate avatars, then download in PNG or SVG formats.",
   "404Title": "Oops! Page Not Found.",
@@ -45,5 +46,15 @@
   "choosePart": "Choose",
   "Choose item": "{{choose}} {{item}}",
   "halloween": "Halloween",
-  "christmas": "Christmas"
+  "christmas": "Christmas",
+  "howItWorks": "How it works",
+  "howItWorksTitle": "How it works | Notion-Avatar-Maker",
+  "howItWorksDescription": "Learn how to use Notion-Avatar-Maker to create your custom avatar for your social media profile.",
+  "logoAlt": "Notion-Avatar-Maker Logo",
+  "footerDescription": "Create your custom Notion-style avatar for your social media profiles.",
+  "explore": "Explore",
+  "sayHi": "Say Hi 👋",
+  "legal": "Legal",
+  "privacyPolicy": "Privacy Policy",
+  "termsConditions": "Terms & Conditions"
 }

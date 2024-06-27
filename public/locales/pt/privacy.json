@@ -1,0 +1,77 @@
+{
+    "privacyTitle": "Política de Privacidade | Notion-Avatar-Maker",
+    "privacyPolicy": {
+        "title": "Política de Privacidade do Notion-Avatar-Maker",
+        "lastUpdated": "Última atualização: 26 de junho de 2024",
+        "overview": {
+            "title": "Visão Geral",
+            "content1": "Esta Política de Privacidade descreve nossas políticas e procedimentos sobre a coleta, uso e divulgação de suas informações quando você usa o Serviço e informa sobre seus direitos de privacidade e como a lei o protege.",
+            "content2": "Usamos seus dados pessoais para fornecer e melhorar o Serviço. Ao usar o Serviço, você concorda com a coleta e uso de informações de acordo com esta Política de Privacidade."
+        },
+        "collectingAndUsing": {
+            "title": "Coleta e uso de seus dados pessoais",
+            "personalData": {
+                "title": "Dados pessoais",
+                "content": "Ao usar nosso Serviço, podemos pedir que você nos forneça certas informações de identificação pessoal que podem ser usadas para contatá-lo ou identificá-lo. Informações de identificação pessoal podem incluir, mas não se limitam a:",
+                "name": "Nome",
+                "email": "Endereço de e-mail",
+                "paymentInfo": "Informações de pagamento"
+            },
+            "usageData": {
+                "title": "Dados de uso",
+                "content1": "Os dados de uso são coletados automaticamente ao usar o Serviço.",
+                "content2": "Os dados de uso podem incluir informações como o endereço IP do seu dispositivo (por exemplo, endereço IP), tipo de navegador, versão do navegador, as páginas do nosso Serviço que você visita, a hora e a data da sua visita, o tempo gasto nessas páginas, identificadores exclusivos de dispositivos e outros dados de diagnóstico.",
+                "content3": "Quando você acessa o Serviço por meio de um dispositivo móvel, podemos coletar certas informações automaticamente, incluindo, mas não se limitando a, o tipo de dispositivo móvel que você usa, seu ID exclusivo do dispositivo móvel, o endereço IP do seu dispositivo móvel, seu sistema operacional móvel, o tipo de navegador de internet móvel que você usa, identificadores exclusivos de dispositivos e outros dados de diagnóstico.",
+                "content4": "Também podemos coletar informações que seu navegador envia sempre que você visita nosso Serviço ou quando acessa o Serviço por meio de um dispositivo móvel."
+            },
+            "thirdParty": {
+                "title": "Informações de serviços de redes sociais de terceiros",
+                "content1": "A Empresa permite que você crie uma conta e faça login para usar o Serviço através dos seguintes serviços de redes sociais de terceiros:",
+                "google": "Google",
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter",
+                "linkedIn": "LinkedIn",
+                "content2": "Se você decidir se registrar através de ou de outra forma nos conceder acesso a um Serviço de Redes Sociais de Terceiros, podemos coletar dados pessoais que já estão associados à conta do seu Serviço de Redes Sociais de Terceiros, como seu nome, seu endereço de e-mail, suas atividades ou sua lista de contatos associada a essa conta.",
+                "content3": "Você também pode ter a opção de compartilhar informações adicionais com a Empresa através da conta do seu Serviço de Redes Sociais de Terceiros. Se você optar por fornecer tais informações e Dados Pessoais, durante o registro ou de outra forma, você está dando à Empresa permissão para usar, compartilhar e armazená-las de maneira consistente com esta Política de Privacidade."
+            },
+            "tracking": {
+                "title": "Tecnologias de Rastreamento e Cookies",
+                "content": "Usamos cookies e tecnologias de rastreamento semelhantes para rastrear a atividade em nosso Serviço e armazenar certas informações. As tecnologias de rastreamento usadas são beacons, tags e scripts para coletar e rastrear informações e para melhorar e analisar nosso Serviço."
+            }
+        },
+        "purpose": {
+            "title": "Propósito da coleta de dados",
+            "content": "O principal objetivo de coletar seus dados é processar seus pedidos e melhorar a funcionalidade e os serviços do nosso site."
+        },
+        "dataSharing": {
+            "title": "Compartilhamento de dados",
+            "content": "Notion-Avatar-Maker respeita sua privacidade. Não compartilhamos seus dados pessoais com terceiros, exceto quando necessário para processar seus pedidos ou cumprir com requisitos legais."
+        },
+        "deleteData": {
+            "title": "Excluir seus dados pessoais",
+            "content1": "Você tem o direito de excluir ou solicitar nossa assistência para excluir os Dados Pessoais que coletamos sobre você.",
+            "content2": "Nosso Serviço pode dar-lhe a capacidade de excluir certas informações sobre você de dentro do Serviço.",
+            "content3": "Você pode atualizar, modificar ou excluir suas informações a qualquer momento, fazendo login na sua conta, se tiver uma, e visitando a seção de configurações da conta que permite gerenciar suas informações pessoais. Você também pode nos contatar para solicitar acesso, corrigir ou excluir qualquer informação pessoal que você nos tenha fornecido.",
+            "content4": "No entanto, observe que podemos precisar reter certas informações quando tivermos uma obrigação legal ou uma base legal para fazê-lo."
+        },
+        "security": {
+            "title": "Segurança dos seus dados pessoais",
+            "content": "A segurança dos seus dados pessoais é importante para Notion-Avatar-Maker, mas lembre-se de que nenhum método de transmissão pela Internet ou método de armazenamento eletrônico é 100% seguro. Embora nos esforcemos para usar meios comercialmente aceitáveis para proteger seus dados pessoais, não podemos garantir sua segurança absoluta."
+        },
+        "children": {
+            "title": "Privacidade das Crianças",
+            "content": "Nosso Serviço não se dirige a menores de 13 anos. Não coletamos intencionalmente informações de identificação pessoal de menores de 13 anos. Se você é pai ou responsável e sabe que seu filho nos forneceu Dados Pessoais, por favor, entre em contato conosco. Se tomarmos conhecimento de que coletamos Dados Pessoais de qualquer pessoa com menos de 13 anos sem verificação do consentimento dos pais, tomamos medidas para remover essas informações de nossos servidores."
+        },
+        "updates": {
+            "title": "Atualizações desta Política de Privacidade",
+            "content1": "Podemos atualizar nossa Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações publicando a nova Política de Privacidade nesta página.",
+            "content2": "Nós o informaremos por e-mail e/ou um aviso proeminente em nosso Serviço, antes que a alteração entre em vigor e atualizaremos a data da \"Última atualização\" no topo desta Política de Privacidade.",
+            "content3": "Recomenda-se que você revise esta Política de Privacidade periodicamente para quaisquer alterações. As alterações nesta Política de Privacidade são eficazes quando publicadas nesta página."
+        },
+        "contact": {
+            "title": "Contate-Nos",
+            "content": "Se você tiver alguma dúvida ou preocupação sobre esta Política de Privacidade, por favor, entre em contato conosco em support@notion-avatar-maker.com."
+        }
+    }
+}

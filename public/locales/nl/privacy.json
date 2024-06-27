@@ -1,0 +1,77 @@
+{
+    "privacyTitle": "Privacy beleid | Notion-Avatar-Maker",
+    "privacyPolicy": {
+        "title": "Privacybeleid voor Notion-Avatar-Maker",
+        "lastUpdated": "Laatst bijgewerkt: 26 juni 2024",
+        "overview": {
+            "title": "Overzicht",
+            "content1": "Dit privacybeleid beschrijft ons beleid en onze procedures met betrekking tot het verzamelen, gebruiken en openbaar maken van uw informatie wanneer u de service gebruikt en informeert u over uw privacyrechten en hoe de wet u beschermt.",
+            "content2": "We gebruiken uw persoonlijke gegevens om de service te leveren en te verbeteren. Door de service te gebruiken, stemt u in met het verzamelen en gebruiken van informatie in overeenstemming met dit privacybeleid."
+        },
+        "collectingAndUsing": {
+            "title": "Het verzamelen en gebruiken van uw persoonlijke gegevens",
+            "personalData": {
+                "title": "Persoonlijke Gegevens",
+                "content": "Tijdens het gebruik van onze service kunnen we u vragen om bepaalde persoonlijk identificeerbare informatie te verstrekken die kan worden gebruikt om contact met u op te nemen of u te identificeren. Persoonlijk identificeerbare informatie kan onder andere omvatten:",
+                "name": "Naam",
+                "email": "E-mailadres",
+                "paymentInfo": "Betalingsinformatie"
+            },
+            "usageData": {
+                "title": "Gebruiksgegevens",
+                "content1": "Gebruiksgegevens worden automatisch verzameld bij het gebruik van de service.",
+                "content2": "Gebruiksgegevens kunnen informatie omvatten zoals het IP-adres van uw apparaat, browsertype, browserversie, de pagina's van onze service die u bezoekt, de tijd en datum van uw bezoek, de tijd die op die pagina's is doorgebracht, unieke apparaat-ID's en andere diagnostische gegevens.",
+                "content3": "Wanneer u de service opent via een mobiel apparaat, kunnen we automatisch bepaalde informatie verzamelen, inclusief maar niet beperkt tot het type mobiel apparaat dat u gebruikt, uw unieke ID van het mobiele apparaat, het IP-adres van uw mobiele apparaat, uw mobiele besturingssysteem, het type mobiele internetbrowser dat u gebruikt, unieke apparaat-ID's en andere diagnostische gegevens.",
+                "content4": "We kunnen ook informatie verzamelen die uw browser verzendt wanneer u onze service bezoekt of wanneer u toegang krijgt tot de service via een mobiel apparaat."
+            },
+            "thirdParty": {
+                "title": "Informatie van sociale media-diensten van derden",
+                "content1": "Het bedrijf stelt u in staat om een account aan te maken en in te loggen om de service te gebruiken via de volgende sociale media-diensten van derden:",
+                "google": "Google",
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter",
+                "linkedIn": "LinkedIn",
+                "content2": "Als u besluit om u te registreren via of ons op een andere manier toegang te verlenen tot een sociale media-dienst van derden, kunnen we persoonlijke gegevens verzamelen die al aan uw account van de sociale media-dienst van derden zijn gekoppeld, zoals uw naam, uw e-mailadres, uw activiteiten of uw contactlijst die aan dat account is gekoppeld.",
+                "content3": "U kunt ook de optie hebben om aanvullende informatie met het bedrijf te delen via uw account van de sociale media-dienst van derden. Als u ervoor kiest om dergelijke informatie en persoonlijke gegevens te verstrekken, tijdens de registratie of anderszins, geeft u het bedrijf toestemming om deze te gebruiken, te delen en op te slaan op een manier die in overeenstemming is met dit privacybeleid."
+            },
+            "tracking": {
+                "title": "Trackingtechnologieën en cookies",
+                "content": "We gebruiken cookies en vergelijkbare trackingtechnologieën om de activiteit op onze service te volgen en bepaalde informatie op te slaan. Trackingtechnologieën die worden gebruikt zijn bakens, tags en scripts om informatie te verzamelen en te volgen en om onze service te verbeteren en te analyseren."
+            }
+        },
+        "purpose": {
+            "title": "Doel van gegevensverzameling",
+            "content": "Het primaire doel van het verzamelen van uw gegevens is om uw bestellingen te verwerken en de functionaliteit en diensten van onze website te verbeteren."
+        },
+        "dataSharing": {
+            "title": "Gegevens delen",
+            "content": "Notion-Avatar-Maker respecteert uw privacy. We delen uw persoonlijke gegevens niet met derden, behalve indien nodig om uw bestellingen te verwerken of te voldoen aan wettelijke vereisten."
+        },
+        "deleteData": {
+            "title": "Verwijder uw persoonlijke gegevens",
+            "content1": "U heeft het recht om uw persoonlijke gegevens te verwijderen of ons te vragen u te helpen bij het verwijderen van de persoonlijke gegevens die we over u hebben verzameld.",
+            "content2": "Onze service kan u de mogelijkheid bieden om bepaalde informatie over uzelf te verwijderen binnen de service.",
+            "content3": "U kunt uw informatie op elk moment bijwerken, wijzigen of verwijderen door in te loggen op uw account, indien u er een heeft, en het gedeelte accountinstellingen te bezoeken waarmee u uw persoonlijke gegevens kunt beheren. U kunt ook contact met ons opnemen om toegang te vragen tot, correcties aan te brengen in of het verwijderen van persoonlijke informatie die u ons hebt verstrekt.",
+            "content4": "Houd er echter rekening mee dat we bepaalde informatie moeten behouden wanneer we een wettelijke verplichting of rechtsgrond hebben om dit te doen."
+        },
+        "security": {
+            "title": "Beveiliging van uw persoonlijke gegevens",
+            "content": "De beveiliging van uw persoonlijke gegevens is belangrijk voor Notion-Avatar-Maker, maar onthoud dat geen enkele methode van overdracht via het internet, of methode van elektronische opslag 100% veilig is. Hoewel we ons best doen om commercieel acceptabele middelen te gebruiken om uw persoonlijke gegevens te beschermen, kunnen we de absolute veiligheid ervan niet garanderen."
+        },
+        "children": {
+            "title": "Privacy van kinderen",
+            "content": "Onze service is niet gericht op personen jonger dan 13 jaar. We verzamelen niet bewust persoonlijk identificeerbare informatie van iemand jonger dan 13 jaar. Als u een ouder of voogd bent en u weet dat uw kind ons persoonlijke gegevens heeft verstrekt, neem dan contact met ons op. Als we ons ervan bewust worden dat we persoonlijke gegevens hebben verzameld van iemand jonger dan 13 jaar zonder verificatie van ouderlijke toestemming, ondernemen we stappen om die informatie van onze servers te verwijderen."
+        },
+        "updates": {
+            "title": "Updates van dit privacybeleid",
+            "content1": "We kunnen ons privacybeleid van tijd tot tijd bijwerken. We zullen u op de hoogte stellen van eventuele wijzigingen door het nieuwe privacybeleid op deze pagina te plaatsen.",
+            "content2": "We zullen u via e-mail en/of een prominente kennisgeving op onze service op de hoogte stellen, voordat de wijziging van kracht wordt en de datum 'Laatst bijgewerkt' bovenaan dit privacybeleid bijwerken.",
+            "content3": "U wordt geadviseerd om dit privacybeleid periodiek te bekijken op eventuele wijzigingen. Wijzigingen in dit privacybeleid zijn van kracht wanneer ze op deze pagina worden geplaatst."
+        },
+        "contact": {
+            "title": "Neem contact met ons op",
+            "content": "Als u vragen of opmerkingen heeft over dit privacybeleid, neem dan contact met ons op via support@notion-avatar-maker.com."
+        }
+    }
+}

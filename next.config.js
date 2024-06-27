@@ -4,7 +4,10 @@ const runtimeCaching = require('next-pwa/cache')
 
 module.exports = withPWA(
   {
-    i18n,
+    i18n: {
+      locales: ['en', 'zh', `tw`, 'ko', `ja`, `de`, `es`, `fr`, `nl`, `pt`, `ar`],
+      defaultLocale: 'en',
+    },
     reactStrictMode: true,
     pwa: {
       dest: 'public',

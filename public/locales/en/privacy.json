@@ -1,0 +1,77 @@
+{
+    "privacyTitle": "Privacy Policy | Notion-Avatar-Maker",
+    "privacyPolicy": {
+        "title": "Privacy Policy for Notion-Avatar-Maker",
+        "lastUpdated": "Last updated: June 26, 2024",
+        "overview": {
+            "title": "Overview",
+            "content1": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure oYour information when You use the Service and tells You about Your privacy rights and how the law protects You.",
+            "content2": "We use Your Personal data to provide and improve the Service. By using the Service, You agree to thcollection and use of information in accordance with this Privacy Policy."
+        },
+        "collectingAndUsing": {
+            "title": "Collecting and Using Your Personal Data",
+            "personalData": {
+                "title": "Personal Data",
+                "content": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but inot limited to:",
+                "name": "Name",
+                "email": "Email Address",
+                "paymentInfo": "Payment Information"
+            },
+            "usageData": {
+                "title": "Usage Data",
+                "content1": "Usage Data is collected automatically when using the Service.",
+                "content2": "Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Youvisit, the time spent on those pages, unique device identifiers and other diagnostic data.",
+                "content3": "When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You useunique device identifiers and other diagnostic data.",
+                "content4": "We may also collect information that Your browser sends whenever You visit our Service or when Yoaccess the Service by or through a mobile device."
+            },
+            "thirdParty": {
+                "title": "Information from Third-Party Social Media Services",
+                "content1": "The Company allows You to create an account and log in to use the Service through the followinThird-party Social Media Services:",
+                "google": "Google",
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter",
+                "linkedIn": "LinkedIn",
+                "content2": "If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service's account, such as Your name, Your email address, Your activities or Your contact list associated with thaaccount.",
+                "content3": "You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service's account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manneconsistent with this Privacy Policy."
+            },
+            "tracking": {
+                "title": "Tracking Technologies and Cookies",
+                "content": "We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track informatioand to improve and analyze Our Service."
+            }
+        },
+        "purpose": {
+            "title": "Purpose of Data Collection",
+            "content": "The primary purpose of collecting your data is to process your orders and improve our website'functionality and services."
+        },
+        "dataSharing": {
+            "title": "Data Sharing",
+            "content": "Notion-Avatar-Maker respects your privacy. We do not share your personal data with any third partiesexcept as necessary to process your orders or comply with legal requirements."
+        },
+        "deleteData": {
+            "title": "Delete Your Personal Data",
+            "content1": "You have the right to delete or request that We assist in deleting the Personal Data that We havcollected about You.",
+            "content2": "Our Service may give You the ability to delete certain information about You from within the Service.",
+            "content3": "You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You maalso contact Us to request access to, correct, or delete any personal information that You have provided to Us.",
+            "content4": "Please note, however, that We may need to retain certain information when we have a legal obligatioor lawful basis to do so."
+        },
+        "security": {
+            "title": "Security of Your Personal Data",
+            "content": "The security of Your Personal Data is important to Notion-Avatar-Maker, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commerciallacceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+        },
+        "children": {
+            "title": "Children's Privacy",
+            "content": "Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to removthat information from Our servers."
+        },
+        "updates": {
+            "title": "Updates to This Privacy Policy",
+            "content1": "We may update Our Privacy Policy from time to time. We will notify You of any changes by posting thnew Privacy Policy on this page.",
+            "content2": "We will let You know via email and/or a prominent notice on Our Service, prior to the change becomineffective and update the \"Last updated\" date at the top of this Privacy Policy.",
+            "content3": "You are advised to review this Privacy Policy periodically for any changes. Changes to this PrivacPolicy are effective when they are posted on this page."
+        },
+        "contact": {
+            "title": "Contact Us",
+            "content": "If you have any questions or concerns about this Privacy Policy, please contact us asupport@notion-avatar-maker.com."
+        }
+    }
+}

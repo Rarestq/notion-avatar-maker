@@ -1,0 +1,77 @@
+{
+    "privacyTitle": "Politique de Confidentialité | Notion-Avatar-Maker",
+    "privacyPolicy": {
+        "title": "Politique de Confidentialité pour Notion-Avatar-Maker",
+        "lastUpdated": "Dernière mise à jour : 26 juin 2024",
+        "overview": {
+            "title": "Aperçu",
+            "content1": "Cette politique de confidentialité décrit nos politiques et procédures concernant la collecte, l'utilisation et la divulgation de vos informations lorsque vous utilisez le service et vous informe de vos droits en matière de confidentialité et de la manière dont la loi vous protège.",
+            "content2": "Nous utilisons vos données personnelles pour fournir et améliorer le service. En utilisant le service, vous acceptez la collecte et l'utilisation des informations conformément à cette politique de confidentialité."
+        },
+        "collectingAndUsing": {
+            "title": "Collecte et Utilisation de Vos Données Personnelles",
+            "personalData": {
+                "title": "Données Personnelles",
+                "content": "Lors de l'utilisation de notre service, nous pouvons vous demander de nous fournir certaines informations personnelles identifiables pouvant être utilisées pour vous contacter ou vous identifier. Les informations personnelles identifiables peuvent inclure, mais ne sont pas limitées à :",
+                "name": "Nom",
+                "email": "Adresse E-mail",
+                "paymentInfo": "Informations de Paiement"
+            },
+            "usageData": {
+                "title": "Données d'Utilisation",
+                "content1": "Les données d'utilisation sont collectées automatiquement lors de l'utilisation du service.",
+                "content2": "Les données d'utilisation peuvent inclure des informations telles que l'adresse IP de votre appareil, le type de navigateur, la version du navigateur, les pages de notre service que vous visitez, l'heure et la date de votre visite, le temps passé sur ces pages, les identifiants uniques de l'appareil et d'autres données de diagnostic.",
+                "content3": "Lorsque vous accédez au service via un appareil mobile, nous pouvons collecter automatiquement certaines informations, y compris, mais sans s'y limiter, le type d'appareil mobile que vous utilisez, l'ID unique de votre appareil mobile, l'adresse IP de votre appareil mobile, votre système d'exploitation mobile, le type de navigateur Internet mobile que vous utilisez, les identifiants uniques de l'appareil et d'autres données de diagnostic.",
+                "content4": "Nous pouvons également collecter des informations que votre navigateur envoie chaque fois que vous visitez notre service ou lorsque vous accédez au service via un appareil mobile."
+            },
+            "thirdParty": {
+                "title": "Informations provenant des Services de Réseaux Sociaux de Tiers",
+                "content1": "La société vous permet de créer un compte et de vous connecter pour utiliser le service via les services de réseaux sociaux tiers suivants :",
+                "google": "Google",
+                "facebook": "Facebook",
+                "instagram": "Instagram",
+                "twitter": "Twitter",
+                "linkedIn": "LinkedIn",
+                "content2": "Si vous décidez de vous inscrire via ou de nous accorder autrement l'accès à un service de réseau social tiers, nous pouvons collecter des données personnelles déjà associées au compte de votre service de réseau social tiers, telles que votre nom, votre adresse e-mail, vos activités ou votre liste de contacts associée à ce compte.",
+                "content3": "Vous pouvez également avoir la possibilité de partager des informations supplémentaires avec la société via le compte de votre service de réseau social tiers. Si vous choisissez de fournir de telles informations et données personnelles, lors de l'inscription ou autrement, vous donnez à la société la permission de les utiliser, de les partager et de les stocker d'une manière conforme à cette politique de confidentialité."
+            },
+            "tracking": {
+                "title": "Technologies de Suivi et Cookies",
+                "content": "Nous utilisons des cookies et des technologies de suivi similaires pour suivre l'activité sur notre service et stocker certaines informations. Les technologies de suivi utilisées sont les balises, les tags et les scripts pour collecter et suivre les informations et pour améliorer et analyser notre service."
+            }
+        },
+        "purpose": {
+            "title": "But de la Collecte de Données",
+            "content": "Le principal objectif de la collecte de vos données est de traiter vos commandes et d'améliorer la fonctionnalité et les services de notre site web."
+        },
+        "dataSharing": {
+            "title": "Partage de Données",
+            "content": "Notion-Avatar-Maker respecte votre vie privée. Nous ne partageons pas vos données personnelles avec des tiers, sauf si cela est nécessaire pour traiter vos commandes ou pour respecter les exigences légales."
+        },
+        "deleteData": {
+            "title": "Supprimer Vos Données Personnelles",
+            "content1": "Vous avez le droit de supprimer ou de demander notre aide pour supprimer les données personnelles que nous avons collectées à votre sujet.",
+            "content2": "Notre service peut vous donner la possibilité de supprimer certaines informations vous concernant dans le service.",
+            "content3": "Vous pouvez mettre à jour, modifier ou supprimer vos informations à tout moment en vous connectant à votre compte, si vous en avez un, et en visitant la section des paramètres du compte qui vous permet de gérer vos informations personnelles. Vous pouvez également nous contacter pour demander l'accès, la correction ou la suppression de toute information personnelle que vous nous avez fournie.",
+            "content4": "Veuillez noter, cependant, que nous pouvons avoir besoin de conserver certaines informations lorsque nous avons une obligation légale ou une base légale pour le faire."
+        },
+        "security": {
+            "title": "Sécurité de Vos Données Personnelles",
+            "content": "La sécurité de vos données personnelles est importante pour Notion-Avatar-Maker, mais rappelez-vous qu'aucune méthode de transmission sur Internet, ni aucune méthode de stockage électronique n'est 100% sécurisée. Bien que nous nous efforcions d'utiliser des moyens commercialement acceptables pour protéger vos données personnelles, nous ne pouvons garantir leur sécurité absolue."
+        },
+        "children": {
+            "title": "Confidentialité des Enfants",
+            "content": "Notre service ne s'adresse à personne de moins de 13 ans. Nous ne collectons pas sciemment des informations personnelles identifiables de toute personne de moins de 13 ans. Si vous êtes un parent ou un tuteur et que vous êtes conscient que votre enfant nous a fourni des données personnelles, veuillez nous contacter. Si nous prenons connaissance du fait que nous avons collecté des données personnelles auprès de toute personne de moins de 13 ans sans vérification du consentement parental, nous prendrons des mesures pour supprimer ces informations de nos serveurs."
+        },
+        "updates": {
+            "title": "Mises à Jour de Cette Politique de Confidentialité",
+            "content1": "Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page.",
+            "content2": "Nous vous informerons par e-mail et/ou par un avis bien visible sur notre service, avant que le changement ne prenne effet et nous mettrons à jour la date de 'Dernière mise à jour' en haut de cette politique de confidentialité.",
+            "content3": "Il vous est conseillé de consulter périodiquement cette politique de confidentialité pour prendre connaissance de tout changement. Les modifications apportées à cette politique de confidentialité entrent en vigueur lorsqu'elles sont publiées sur cette page."
+        },
+        "contact": {
+            "title": "Contactez-Nous",
+            "content": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, veuillez nous contacter à support@notion-avatar-maker.com."
+        }
+    }
+}

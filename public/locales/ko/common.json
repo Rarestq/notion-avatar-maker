@@ -20,7 +20,7 @@
   "notion": "Notion",
   "contactUs": "Contact Us",
   "contactEmail": "support@notion-avatar-maker.com",
-  "illustrations": "Illustrations ",
+  "illustrations": "Copyright 2024. Illustrations ",
   "underDesign": "and under",
   "designedBy": "designed by",
   "license": "license",
@@ -29,6 +29,7 @@
   "modalHint": "길게 누르거나 오른쪽 마우스 버튼을 클릭해 아바타를 앨범에 저장하세요",
   "modalCancel": "취소",
   "modalConfirm": "확인",
+  "siteName": "Notion-Avatar-Maker",
   "siteTitle": "노션 아바타 메이커",
   "siteDescription": "노션 스타일 아바타를 만드는 온라인 도구에요.",
   "404Title": "이런! 페이지를 찾을 수 없어요.",
@@ -44,5 +45,15 @@
   "Choose": "선택",
   "Choose item": "{{item}} {{choose}}",
   "halloween": "할로윈",
-  "christmas": "크리스마스"
+  "christmas": "크리스마스",
+  "howItWorks": "How it works",
+  "howItWorksTitle": "How it works | Notion-Avatar-Maker",
+  "howItWorksDescription": "Learn how to use Notion-Avatar-Maker to create your custom avatar for your social media profile.",
+  "logoAlt": "Notion-Avatar-Maker Logo",
+  "footerDescription": "Create your custom Notion-style avatar for your social media profiles.",
+  "explore": "Explore",
+  "sayHi": "Say Hi 👋",
+  "legal": "Legal",
+  "privacyPolicy": "Privacy Policy",
+  "termsConditions": "Terms & Conditions"
 }
