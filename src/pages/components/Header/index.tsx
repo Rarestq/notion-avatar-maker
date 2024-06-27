@@ -39,8 +39,8 @@ export default function Header() {
         </div>
         
         <div className="space-x-4 relative">
-          <a href="#" className="text-[#4D59E3] hover:text-[#ED4059]">Discover Avatars</a>
-          <a href="#" className="text-[#4D59E3] hover:text-[#ED4059]">Blog</a>
+          {/* <a href="#" className="text-[#4D59E3] hover:text-[#ED4059]">Discover Avatars</a>
+          <a href="#" className="text-[#4D59E3] hover:text-[#ED4059]">Blog</a> */}
           <div className="inline-block relative">
             <button 
               onClick={() => setIsGuidesOpen(!isGuidesOpen)}

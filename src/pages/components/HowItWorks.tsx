@@ -9,22 +9,22 @@ const HowItWorks = () => {
           <div className="bg-[#F6F1F1] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
             <span className="text-2xl font-bold text-[#4D59E3]">1</span>
           </div>
-          <h3 className="font-semibold mb-2 text-[#4D59E3]">Randomize!</h3>
-          <p className="text-gray-600">Simply click the randomize button on the toolbar to generate a color palette.</p>
+          <h3 className="font-semibold mb-2 text-[#4D59E3]">Random!</h3>
+          <p className="text-gray-600">Simply click the Random button on the toolbar to generate a base Notion-Avatar.</p>
         </div>
         <div className="text-center">
           <div className="bg-[#F6F1F1] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
             <span className="text-2xl font-bold text-[#4D59E3]">2</span>
           </div>
-          <h3 className="font-semibold mb-2 text-[#4D59E3]">Copy!</h3>
-          <p className="text-gray-600">You can copy the hex code for any color you like by clicking on the color on the toolbar or palette drawer.</p>
+          <h3 className="font-semibold mb-2 text-[#4D59E3]">Customize!</h3>
+          <p className="text-gray-600">You can choose your styles to customize the face, nose, mouth, eyes, eyebrows, glasses, hair, head, beard, accessories, and facial details of your avatar. Also, you can open the palette to choose your avatar background shape and DIY your own color.</p>
         </div>
         <div className="text-center">
           <div className="bg-[#F6F1F1] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
             <span className="text-2xl font-bold text-[#4D59E3]">3</span>
           </div>
-          <h3 className="font-semibold mb-2 text-[#4D59E3]">Export!</h3>
-          <p className="text-gray-600">Export your new favorite color palette as a PNG, copy the palette as CSS variables, or export every color palette you've seen this session as a CSV file.</p>
+          <h3 className="font-semibold mb-2 text-[#4D59E3]">Download!</h3>
+          <p className="text-gray-600">Download your new favorite Notion-Style Avatar as a PNG or SVG.</p>
         </div>
       </div>
     </div>

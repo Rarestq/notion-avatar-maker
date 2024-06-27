@@ -43,6 +43,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-[#C6E354] text-center">
           <p>
+            {/* TODO by rarestzhou: extract to common.json & Add Copyright 2024. */}
             <a href="https://abstractlab.gumroad.com/l/noto-avatar" className="hover:text-[#ED4059]">
               &copy; {t(`illustrations`)}
             </a>
