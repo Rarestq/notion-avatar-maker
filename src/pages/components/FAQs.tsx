@@ -41,19 +41,19 @@ const FAQs = () => {
   ];
 
   return (
-    <div className="py-12 bg-gray-50">
+    <div className="my-10 max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-lg border-2">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
-          Notion-Avatar-Maker FAQs
-        </h2> */}
+        <h2 className="text-3xl font-extrabold text-[#ED4059] mb-8 text-center">
+          FAQs
+        </h2>
         <div className="space-y-8">
           {faqData.map((faq, index) => (
-            <div key={faq.question} className="bg-white shadow-sm rounded-lg overflow-hidden">
+            <div key={faq.question} className="bg-[#F6F1F1] shadow-sm rounded-lg overflow-hidden border-l-4 border-[#4D59E3]">
               <div className="px-6 py-4">
-                <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">
+                <h3 className="text-xl font-semibold text-[#4D59E3] mb-2">
                   {faq.question}
-                </h2>
-                <p className="text-gray-500">
+                </h3>
+                <p className="text-gray-700">
                   {faq.answer}
                 </p>
               </div>

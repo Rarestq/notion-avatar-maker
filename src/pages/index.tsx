@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+import Link from 'next/link';
 import type { GetStaticPropsContext, NextPage } from 'next';
 import Head from 'next/head';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
@@ -6,14 +8,26 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AvatarEditor from './components/AvatarEditor';
 import FAQs from './components/FAQs';
+import HowItWorks from './components/HowItWorks';
 
 const URL = `https://notion-avatar-maker.com/`;
 
 const Home: NextPage = () => {
   const { t } = useTranslation(`common`);
 
+  const howItWorksRef = useRef<HTMLDivElement>(null);
+
+  const scrollToHowItWorks = (e: React.MouseEvent) => {
+    e.preventDefault();
+    howItWorksRef.current?.scrollIntoView({ 
+      behavior: 'smooth',
+      block: 'start'
+    });
+  };
+
   return (
     <>
+    <div className="min-h-screen bg-gradient-to-b from-[#F6F1F1] to-[#F8E8EE]">
       <Head>
         <link
           rel="apple-touch-icon"
@@ -109,21 +123,31 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <div className="text-center">
-        <h1 className="text-4xl font-extrabold text-gray-900 mb-2">
+      <div className="text-center pt-10">
+        <h1 className="text-4xl font-extrabold text-[#4D59E3] mb-2">
           Notion-Avatar-Maker
         </h1>
-        <p className="text-gray-600 mb-8">
+        <p className="text-[#4D59E3] mb-8">
         Notion-Avatar-Maker empowers users to create distinctive, customizable avatars,
         <br />
         perfect for personal branding on social platforms and creative projects.
         </p>
+        <Link href="#how-it-works" onClick={scrollToHowItWorks}>
+            <span className="bg-white rounded-full shadow-lg text-[#4D59E3] underline cursor-pointer px-3 py-1">
+              How it works →
+            </span>
+        </Link>
       </div>
-      <main className="my-5">
+      <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
         <AvatarEditor />
       </main>
+
+      <div ref={howItWorksRef} id="how-it-works">
+        <HowItWorks />
+      </div>
       <FAQs />
       <Footer />
+    </div>
     </>
   );
 };

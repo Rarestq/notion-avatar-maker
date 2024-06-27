@@ -1,6 +1,6 @@
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document';
 import React from 'react';
-import GoogleAnalytics from './components/google-analytics';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 class Document extends NextDocument {
   render() {

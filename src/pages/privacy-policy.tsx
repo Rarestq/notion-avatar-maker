@@ -5,7 +5,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import GoogleAnalytics from './components/google-analytics';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 const PrivacyPolicy = () => {
   const { t } = useTranslation(`common`);
