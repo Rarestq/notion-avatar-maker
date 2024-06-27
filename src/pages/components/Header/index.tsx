@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/legacy/image';
 import { useRouter } from 'next/router';
+import type { GetStaticPropsContext } from 'next';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 
 const languageOptions = [
@@ -22,7 +24,7 @@ export default function Header() {
   const [isGuidesOpen, setIsGuidesOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const router = useRouter();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation(`common`);
 
   const currentLang = languageOptions.find(lang => lang.code === router.locale) || languageOptions[0];
 
@@ -54,8 +56,8 @@ export default function Header() {
   return (
     <nav className="bg-[#F6F1F1] border-b-0 border-gray-200 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex py-5 px-5 sm:px-16 md:px-32">
-          <Link href="/">
+        <div className="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image
               src="/logo.gif"
               alt={t(`logoAlt`)}
@@ -63,16 +65,14 @@ export default function Header() {
               height={50}
               unoptimized
             />  
-          </Link>  
-          <span className="text-lg text-[#F2613F] ml-2">
-            Notion
-            <br />
-            Avatar Maker
-          </span>
-        </div>
-        
-        <div className="space-x-4 relative">
-          <div className="inline-block relative guides-dropdown">
+            <span className="text-lg text-[#F2613F] ml-2">
+              Notion
+              <br />
+              Avatar Maker
+            </span>
+          </Link>
+          
+          <div className="ml-8 relative guides-dropdown">
             <button 
               onClick={() => setIsGuidesOpen(!isGuidesOpen)}
               className="text-[#4D59E3] hover:text-[#ED4059] focus:outline-none"
@@ -83,25 +83,35 @@ export default function Header() {
               </svg>
             </button>
             {isGuidesOpen && (
-              <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
+              <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
                 <Link href="/how-it-works" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                   {t(`howItWorks`)}
                 </Link>
               </div>
             )}
           </div>
-          <div className="inline-block relative lang-dropdown">
+        </div>
+        
+        <div className="flex items-center space-x-4">
+          <div className="relative lang-dropdown flex items-center">
+            <Image
+              src="/icon/globe.svg"
+              alt={t(`languageLogoAlt`)}
+              width={20}
+              height={20}
+              className="mr-2"
+            />
             <button 
               onClick={() => setIsLangOpen(!isLangOpen)}
-              className="bg-[#F6F6F6] text-[#4D59E3] border-none focus:outline-none"
+              className="bg-[#F6F6F6] text-[#4D59E3] border-none focus:outline-none flex items-center"
             >
               {currentLang.code.toUpperCase()}
-              <svg className="w-4 h-4 ml-1 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </button>
             {isLangOpen && (
-              <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
+              <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 top-full">
                 {languageOptions.map((lang) => (
                   <button
                     key={lang.code}
@@ -115,10 +125,21 @@ export default function Header() {
             )}
           </div>
           <button className="bg-[#ED4059] text-white px-3 py-1 rounded hover:bg-[#C6E354] hover:text-[#4D59E3]">
-            {t('login')}
+            {t(`login`)}
           </button>
         </div>
       </div>
     </nav>
   );
+}
+
+
+export async function getStaticProps({
+  locale,
+}: GetStaticPropsContext & { locale: string }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [`common`])),
+    },
+  };
 }
