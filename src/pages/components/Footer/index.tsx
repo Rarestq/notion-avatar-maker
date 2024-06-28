@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <Image src="/logo.gif" alt={t(`logoAlt`)} width={50} height={50} />
+            <Image src="/logo.gif" alt={t(`logoAlt`)} width={50} height={50} unoptimized />
             {/* <br /> */}
             <span className="text-lg text-[#ED4059] ml-2">
               {t(`siteName`)}

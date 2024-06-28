@@ -1,41 +1,23 @@
 {
-    "faqTitle": "Preguntas Frecuentes",
-    "faqData": [
-        {
-            "question": "¿Qué es Notion-Avatar-Maker?",
-            "answer": "Notion-Avatar-Maker es una herramienta que te permite crear avatares de estilo Notion personalizados para tus perfiles de redes sociales. Puedes personalizar el cabello, los ojos, la boca, la cabeza, la barba, los accesorios y el vello facial de tu avatar."
-        },
-        {
-            "question": "¿Qué es un avatar de estilo Notion?",
-            "answer": "Un avatar de Notion es una imagen personalizada que puedes usar para representarte en las redes sociales. Puedes usar Notion-Avatar-Maker para crear un avatar de estilo Notion personalizado para tus redes."
-        },
-        {
-            "question": "¿Cómo funciona Notion-Avatar-Maker?",
-            "answer": "Notion-Avatar-Maker funciona proporcionando una interfaz de usuario amigable donde puedes seleccionar y personalizar varios elementos de tu avatar, como el peinado, las características faciales y los accesorios. Una vez que hayas diseñado tu avatar a tu gusto, puedes descargarlo para usarlo en las redes sociales u otras plataformas."
-        },
-        {
-            "question": "¿Cómo usar Notion-Avatar-Maker?",
-            "answer": "Para usar Notion-Avatar-Maker, simplemente visita https://notion-avatar-maker.com, explora las opciones de personalización disponibles y elige los estilos que deseas para tu avatar. Ajusta los elementos para que coincidan con el aspecto que deseas. Después de finalizar tu diseño, puedes descargar la imagen del avatar para usarla como desees."
-        },
-        {
-            "question": "¿Es Notion-Avatar-Maker gratis?",
-            "answer": "Sí, Notion-Avatar-Maker es libre de usar. Puedes crear y descargar tu avatar de estilo Notion personalizado sin pagar nada."
-        },
-        {
-            "question": "¿Puedo compartir los avatares creados con Notion-Avatar-Maker en las redes sociales?",
-            "answer": "Sí, los avatares generados por Notion-Avatar-Maker son tuyos para usar como desees, incluyendo compartirlos en las plataformas de redes sociales. Tienes todos los derechos para usar y distribuir los avatares que crees para cualquier propósito, personal o comercial."
-        },
-        {
-            "question": "¿En qué formatos puedo descargar mi avatar?",
-            "answer": "Puedes descargar tu avatar de estilo Notion personalizado en formatos PNG o SVG desde Notion-Avatar-Maker."
-        },
-        {
-            "question": "¿Hay límites para la creación de avatares de Notion?",
-            "answer": "No hay límites en el número de avatares que puedes crear usando Notion-Avatar-Maker. ¡Siéntete libre de generar tantos como necesites!"
-        },
-        {
-            "question": "¿Hay planes para futuras características o actualizaciones?",
-            "answer": "Estamos constantemente trabajando en mejorar Notion-Avatar-Maker. ¡Manténganse al tanto de futuras actualizaciones, incluyendo nuevas opciones de personalización y características!"
-        }
-    ]
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "question1": "¿Qué es Notion-Avatar-Maker?",
+        "answer1": "Notion-Avatar-Maker es una herramienta que te permite crear avatares de estilo Notion personalizados para tus perfiles de redes sociales. Puedes personalizar el cabello, los ojos, la boca, la cabeza, la barba, los accesorios y el vello facial de tu avatar.",
+        "question2": "¿Qué es un avatar de estilo Notion?",
+        "answer2": "Un avatar de Notion es una imagen personalizada que puedes usar para representarte en las redes sociales. Puedes usar Notion-Avatar-Maker para crear un avatar de estilo Notion personalizado para tus redes.",
+        "question3": "¿Cómo funciona Notion-Avatar-Maker?",
+        "answer3": "Notion-Avatar-Maker funciona proporcionando una interfaz de usuario amigable donde puedes seleccionar y personalizar varios elementos de tu avatar, como el peinado, las características faciales y los accesorios. Una vez que hayas diseñado tu avatar a tu gusto, puedes descargarlo para usarlo en las redes sociales u otras plataformas.",
+        "question4": "¿Cómo usar Notion-Avatar-Maker?",
+        "answer4": "Para usar Notion-Avatar-Maker, simplemente visita https://notion-avatar-maker.com, explora las opciones de personalización disponibles y elige los estilos que deseas para tu avatar. Ajusta los elementos para que coincidan con el aspecto que deseas. Después de finalizar tu diseño, puedes descargar la imagen del avatar para usarla como desees.",
+        "question5": "¿Es Notion-Avatar-Maker gratis?",
+        "answer5": "Sí, Notion-Avatar-Maker es libre de usar. Puedes crear y descargar tu avatar de estilo Notion personalizado sin pagar nada.",
+        "question6": "¿Puedo compartir los avatares creados con Notion-Avatar-Maker en las redes sociales?",
+        "answer6": "Sí, los avatares generados por Notion-Avatar-Maker son tuyos para usar como desees, incluyendo compartirlos en las plataformas de redes sociales. Tienes todos los derechos para usar y distribuir los avatares que crees para cualquier propósito, personal o comercial.",
+        "question7": "¿En qué formatos puedo descargar mi avatar?",
+        "answer7": "Puedes descargar tu avatar de estilo Notion personalizado en formatos PNG o SVG desde Notion-Avatar-Maker.",
+        "question8": "¿Hay límites para la creación de avatares de Notion?",
+        "answer8": "No hay límites en el número de avatares que puedes crear usando Notion-Avatar-Maker. ¡Siéntete libre de generar tantos como necesites!",
+        "question9": "¿Hay planes para futuras características o actualizaciones?",
+        "answer9": "Estamos constantemente trabajando en mejorar Notion-Avatar-Maker. ¡Manténganse al tanto de futuras actualizaciones, incluyendo nuevas opciones de personalización y características!"
+    }
 }

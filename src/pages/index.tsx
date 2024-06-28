@@ -14,14 +14,15 @@ import Footer from './components/Footer';
 const URL = `https://notion-avatar-maker.com/`;
 
 const Home: NextPage = () => {
-  const { t } = useTranslation(`common`);
+  const { t } = useTranslation([`common`, `how`, `faqs`]);
   const router = useRouter();
 
   const canonicalUrl = `https://notion-avatar-maker.com${
     router.locale === 'en' ? '' : `/${router.locale}`
   }`;
 
-  // console.log('Translation Text unsuccessfully:', t(`siteNameDescOne`), t(`siteNameDescTwo`));
+  // Debugging:
+  // console.log('Translation Text unsuccessfully:', t(`howItWorks`));
   // console.log('Translation Text:', t(`siteName`), t(`logoAlt`), t('privacyPolicy'), t('sayHi'));
 
   const howItWorksRef = useRef<HTMLDivElement>(null);
@@ -142,20 +143,19 @@ const Home: NextPage = () => {
         <br />
           {t(`siteNameDescTwo`)}
         </p>
-        {/** TODO by rarestzhou: howitworks not render successfully */}
-        {/* <Link href="#how-it-works" onClick={scrollToHowItWorks}>
-            <span className="bg-white rounded-full shadow-lg text-[#1A237E] underline cursor-pointer px-3 py-1">
+        <Link href="#how-it-works" onClick={scrollToHowItWorks}>
+          <span className="bg-white rounded-full shadow-lg text-[#1A237E] underline cursor-pointer px-3 py-1">
             {t(`howItWorks`)} →
-            </span>
-        </Link> */}
+          </span>
+        </Link>
       </div>
       <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
         <AvatarEditor />
       </main>
 
-      {/* <div ref={howItWorksRef} id="how-it-works">
+      <div ref={howItWorksRef} id="how-it-works">
         <HowItWorks />
-      </div> */}
+      </div>
       <FAQs />
       <Footer />
     </div>
@@ -170,7 +170,7 @@ export async function getStaticProps({
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, [`common`])),
+      ...(await serverSideTranslations(locale, [`common`, `how`, `faqs`])),
     },
   };
 }

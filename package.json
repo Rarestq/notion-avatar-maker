@@ -20,7 +20,10 @@
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install",
     "commit": "cz",
-    "svgo": "svgo -f public/icon"
+    "svgo": "svgo -f public/icon",
+    "preclean": "echo 'About to clean'",
+    "clean": "rm -rf ./dist && mkdir dist",
+    "postclean": "echo 'Clean completed'"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [

@@ -9,7 +9,7 @@ import HowItWorks from './components/HowItWorks';
 import Footer from './components/Footer';
 
 const HowItWorksPage = () => {
-  const { t } = useTranslation(`common`);
+  const { t } = useTranslation([`common`, `how`]);
   const router = useRouter();
 
   const canonicalUrl = `https://notion-avatar-maker.com${
@@ -47,7 +47,7 @@ export async function getStaticProps({
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, [`common`])),
+      ...(await serverSideTranslations(locale, [`common`, `how`])),
     },
   };
 }
