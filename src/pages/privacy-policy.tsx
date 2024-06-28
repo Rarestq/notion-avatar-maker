@@ -1,11 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
 import type { GetStaticPropsContext } from 'next';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import Header from './components/Header';
 import GoogleAnalytics from './components/GoogleAnalytics';
 import Footer from './components/Footer';
-import { useRouter } from 'next/router';
 
 const PrivacyPolicy = () => {
   const { t: tCommon } = useTranslation('common');

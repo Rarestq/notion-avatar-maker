@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Link from 'next/link';
 import type { GetStaticPropsContext, NextPage } from 'next';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import GoogleAnalytics from './components/GoogleAnalytics';
 import Header from './components/Header';
@@ -9,7 +10,6 @@ import HowItWorks from './components/HowItWorks';
 import AvatarEditor from './components/AvatarEditor';
 import FAQs from './components/FAQs';
 import Footer from './components/Footer';
-import { useRouter } from 'next/router';
 
 const URL = `https://notion-avatar-maker.com/`;
 
