@@ -29,7 +29,7 @@ const HowItWorksPage = () => {
       <Header />
       
       <main className="py-10">
-        <h1 className="text-4xl font-extrabold text-[#4D59E3] mb-8 text-center">{t(`howItWorks`)}</h1>
+        <h1 className="text-4xl font-extrabold text-[#0C359E] mb-8 text-center">{t(`howItWorks`)}</h1>
         <HowItWorks />
       </main>
 
