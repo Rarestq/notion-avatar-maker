@@ -117,9 +117,9 @@ export default function Header() {
               </div>
             )}
           </div>
-          <button className="bg-[#1A237E] text-white px-3 py-1 rounded hover:bg-[#E1AFD1] hover:text-[#4D59E3]">
+          {/* <button className="bg-[#1A237E] text-white px-3 py-1 rounded hover:bg-[#E1AFD1] hover:text-[#4D59E3]">
             {t(`login`)}
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>
