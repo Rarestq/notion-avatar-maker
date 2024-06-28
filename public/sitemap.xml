@@ -6,17 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://notion-avatar-maker.com/</loc>
-  <lastmod>2024-06-26T12:19:07+00:00</lastmod>
+  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/privacy-policy</loc>
-  <lastmod>2024-06-26T12:19:07+00:00</lastmod>
+  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/terms-of-service</loc>
-  <lastmod>2024-06-26T12:19:07+00:00</lastmod>
+  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/how-it-works</loc>
+  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
