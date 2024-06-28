@@ -75,7 +75,7 @@ export default function Header() {
           <div className="ml-8 relative guides-dropdown">
             <button 
               onClick={() => setIsGuidesOpen(!isGuidesOpen)}
-              className="text-[#4D59E3] hover:text-[#ED4059] focus:outline-none"
+              className="text-[#1A237E] hover:text-[#ED4059] focus:outline-none"
             >
               {t(`guides`)}
               <svg className="w-4 h-4 ml-1 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +117,7 @@ export default function Header() {
               </div>
             )}
           </div>
-          <button className="bg-[#ED4059] text-white px-3 py-1 rounded hover:bg-[#C6E354] hover:text-[#4D59E3]">
+          <button className="bg-[#1A237E] text-white px-3 py-1 rounded hover:bg-[#E1AFD1] hover:text-[#4D59E3]">
             {t(`login`)}
           </button>
         </div>

@@ -136,16 +136,16 @@ const Home: NextPage = () => {
 
       <Header />
       <div className="text-center pt-10">
-        <h1 className="text-4xl font-extrabold text-[#4D59E3] mb-2">
+        <h1 className="text-4xl font-extrabold text-[#1A237E] mb-2">
           {t(`siteName`)}
         </h1>
-        <p className="text-[#4D59E3] mb-8">
+        <p className="text-[#1A237E] mb-8">
           {t(`siteNameDescOne`)}
         <br />
           {t(`siteNameDescTwo`)}
         </p>
         <Link href="#how-it-works" onClick={scrollToHowItWorks}>
-            <span className="bg-white rounded-full shadow-lg text-[#4D59E3] underline cursor-pointer px-3 py-1">
+            <span className="bg-white rounded-full shadow-lg text-[#1A237E] underline cursor-pointer px-3 py-1">
             {t(`howItWorks`)} →
             </span>
         </Link>
