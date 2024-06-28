@@ -74,6 +74,7 @@ export default function Header() {
           
           <div className="ml-8 relative guides-dropdown">
             <button
+              type="button"
               onClick={() => setIsGuidesOpen(!isGuidesOpen)}
               className="text-[#1A237E] hover:text-[#ED4059] focus:outline-none"
             >
@@ -95,6 +96,7 @@ export default function Header() {
         <div className="flex items-center space-x-4">
           <div className="relative lang-dropdown flex items-center">
             <button
+              type="button"
               onClick={() => setIsLangOpen(!isLangOpen)}
               className="bg-[#F6F6F6] text-[#4D59E3] border-none focus:outline-none flex items-center"
             >
@@ -107,6 +109,7 @@ export default function Header() {
               <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 top-full">
                 {languageOptions.map((lang) => (
                   <button
+                    type="button"
                     key={lang.code}
                     onClick={() => changeLanguage(lang.code)}
                     className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
