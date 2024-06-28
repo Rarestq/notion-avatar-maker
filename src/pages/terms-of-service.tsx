@@ -14,7 +14,7 @@ const TermsConditions = () => {
   const router = useRouter();
 
   const canonicalUrl = `https://notion-avatar-maker.com${
-    router.locale === 'en' ? '' : '/' + router.locale
+    router.locale === 'en' ? '' : `/${router.locale}`
   }/terms-of-service`;
 
   return (

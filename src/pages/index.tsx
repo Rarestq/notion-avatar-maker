@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   const router = useRouter();
 
   const canonicalUrl = `https://notion-avatar-maker.com${
-    router.locale === 'en' ? '' : '/' + router.locale
+    router.locale === 'en' ? '' : `/${router.locale}`
   }`;
 
   // console.log('Translation Text unsuccessfully:', t(`siteNameDescOne`), t(`siteNameDescTwo`));

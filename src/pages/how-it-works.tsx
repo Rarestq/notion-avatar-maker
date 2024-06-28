@@ -13,7 +13,7 @@ const HowItWorksPage = () => {
   const router = useRouter();
 
   const canonicalUrl = `https://notion-avatar-maker.com${
-    router.locale === 'en' ? '' : '/' + router.locale
+    router.locale === 'en' ? '' : `/${router.locale}`
   }/how-it-works`;
 
   return (
