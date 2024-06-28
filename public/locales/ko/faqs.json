@@ -1,0 +1,41 @@
+{
+    "faqTitle": "자주 묻는 질문",
+    "faqData": [
+        {
+            "question": "Notion-Avatar-Maker란 무엇인가요?",
+            "answer": "Notion-Avatar-Maker는 소셜 미디어 프로필에 맞춤형 Notion 스타일 아바타를 만들 수 있는 도구입니다. 아바타의 머리카락, 눈, 입, 머리, 수염, 액세서리, 얼굴 모양 등을 맞춤화할 수 있습니다."
+        },
+        {
+            "question": "Notion 스타일 아바타란 무엇인가요?",
+            "answer": "Notion 아바타는 소셜 미디어에서 자신을 대표하는 데 사용할 수 있는 맞춤형 이미지입니다. Notion-Avatar-Maker를 사용하여 소셜 미디어에 맞춤형 Notion 스타일 아바타를 만들 수 있습니다."
+        },
+        {
+            "question": "Notion-Avatar-Maker는 어떻게 작동하나요?",
+            "answer": "Notion-Avatar-Maker는 사용자 친화적인 인터페이스를 제공하여 아바타의 다양한 요소를 선택하고 맞춤화할 수 있습니다. 머리 스타일, 얼굴 특징, 액세서리 등이 그 중에 포함됩니다. 원하는 아바타 디자인을 완성하면 소셜 미디어나 다른 플랫폼에서 사용할 수 있도록 다운로드할 수 있습니다."
+        },
+        {
+            "question": "Notion-Avatar-Maker를 어떻게 사용하나요?",
+            "answer": "Notion-Avatar-Maker를 사용하려면, https://notion-avatar-maker.com을 방문하여 사용 가능한 맞춤화 옵션을 탐색하고 원하는 아바타 스타일을 선택하세요. 원하는 모양에 맞게 요소를 조정하세요. 디자인을 최종 확정하면 아바타 이미지를 다운로드하여 원하는 대로 사용할 수 있습니다."
+        },
+        {
+            "question": "Notion-Avatar-Maker는 무료인가요?",
+            "answer": "네, Notion-Avatar-Maker는 무료로 사용할 수 있습니다. 아무런 비용 없이 맞춤형 Notion 스타일 아바타를 만들고 다운로드할 수 있습니다."
+        },
+        {
+            "question": "Notion-Avatar-Maker로 만든 아바타를 소셜 미디어에 공유할 수 있나요?",
+            "answer": "네, Notion-Avatar-Maker를 통해 생성한 아바타는 원하는 대로 사용할 수 있으며, 소셜 미디어 플랫폼에 공유할 수도 있습니다. 생성한 아바타를 개인적 또는 상업적 목적으로 사용하고 배포할 수 있는 권리가 있습니다."
+        },
+        {
+            "question": "아바타를 어떤 형식으로 다운로드할 수 있나요?",
+            "answer": "Notion-Avatar-Maker에서 PNG 또는 SVG 형식으로 맞춤형 Notion 스타일 아바타를 다운로드할 수 있습니다."
+        },
+        {
+            "question": "아바타 생성에 제한이 있나요?",
+            "answer": "Notion-Avatar-Maker를 사용하여 생성할 수 있는 아바타의 수에는 제한이 없습니다. 필요한 만큼 자유롭게 생성하세요!"
+        },
+        {
+            "question": "향후 기능이나 업데이트 계획이 있나요?",
+            "answer": "Notion-Avatar-Maker를 지속적으로 개선하고 있습니다. 새로운 맞춤화 옵션과 기능을 포함한 향후 업데이트를 기대해주세요!"
+        }
+    ]
+}

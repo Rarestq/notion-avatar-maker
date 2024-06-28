@@ -1,27 +1,25 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
-import { Suspense } from 'react'
 import type { GetStaticPropsContext, NextPage } from 'next';
 import Head from 'next/head';
 import { useTranslation } from 'next-i18next';
-import dynamic from 'next/dynamic';
-
-// Lazy load components
-const GoogleAnalytics = dynamic(() => import('./components/GoogleAnalytics'));
-const Header = dynamic(() => import('./components/Header'));
-// const AvatarEditor = dynamic(() => import('./components/AvatarEditor'));
-const FAQs = dynamic(() => import('./components/FAQs'));
-const HowItWorks = dynamic(() => import('./components/HowItWorks'));
-const Footer = dynamic(() => import('./components/Footer'));
-
-const DynamicAvatarEditor = dynamic(() => import('./components/AvatarEditor'), {
-  loading: () => <p>Loading...</p>,
-})
+import GoogleAnalytics from './components/GoogleAnalytics';
+import Header from './components/Header';
+import HowItWorks from './components/HowItWorks';
+import AvatarEditor from './components/AvatarEditor';
+import FAQs from './components/FAQs';
+import Footer from './components/Footer';
+import { useRouter } from 'next/router';
 
 const URL = `https://notion-avatar-maker.com/`;
 
 const Home: NextPage = () => {
   const { t } = useTranslation(`common`);
+  const router = useRouter();
+
+  const canonicalUrl = `https://notion-avatar-maker.com${
+    router.locale === 'en' ? '' : '/' + router.locale
+  }`;
 
   // console.log('Translation Text unsuccessfully:', t(`siteNameDescOne`), t(`siteNameDescTwo`));
   // console.log('Translation Text:', t(`siteName`), t(`logoAlt`), t('privacyPolicy'), t('sayHi'));
@@ -111,7 +109,7 @@ const Home: NextPage = () => {
           href="/favicon/favicon-16x16.png"
         />
         <link rel="icon" href="/favicon/favicon.ico" />
-        <link rel="canonical" href={t(`canonical`)} />
+        <link rel="canonical" href={canonicalUrl} />
         <link rel="manifest" href="/manifest.json" />
         <title>{t(`siteTitle`)}</title>
         <meta name="description" content={t(`siteDescription`)} />
@@ -150,11 +148,9 @@ const Home: NextPage = () => {
             </span>
         </Link>
       </div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
-          <DynamicAvatarEditor />
-        </main>
-      </Suspense>
+      <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
+        <AvatarEditor />
+      </main>
 
       <div ref={howItWorksRef} id="how-it-works">
         <HowItWorks />
@@ -173,7 +169,7 @@ export async function getStaticProps({
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(locale, [`common`])),
     },
   };
 }

@@ -8,12 +8,12 @@ export default function Footer() {
   const { t } = useTranslation(`common`);
 
   return (
-    <footer className="bg-[#F6F1F1] text-[#4D59E3] flex flex-col items-center py-12 border-t border-[#4D59E3]">
+    <footer className="bg-[#F6F1F1] text-[#1A237E] flex flex-col items-center py-12 border-t">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Image src="/logo.gif" alt={t(`logoAlt`)} width={50} height={50} />
-            <br />
+            {/* <br /> */}
             <span className="text-lg text-[#ED4059] ml-2">
               {t(`siteName`)}
             </span>
@@ -43,7 +43,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-[#C6E354] text-center">
+        <div className="mt-8 pt-8 border-t border-[#1A237E] text-center">
           <p>
             <a href="https://abstractlab.gumroad.com/l/noto-avatar" className="hover:text-[#ED4059]">
               &copy; {t(`illustrations`)}

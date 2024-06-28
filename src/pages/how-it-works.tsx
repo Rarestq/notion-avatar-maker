@@ -3,13 +3,10 @@ import Head from 'next/head';
 import type { GetStaticPropsContext } from 'next';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import dynamic from 'next/dynamic';
-
-// Lazy load components
-const GoogleAnalytics = dynamic(() => import('./components/GoogleAnalytics'));
-const Header = dynamic(() => import('./components/Header'));
-const HowItWorks = dynamic(() => import('./components/HowItWorks'));
-const Footer = dynamic(() => import('./components/Footer'));
+import GoogleAnalytics from './components/GoogleAnalytics';
+import Header from './components/Header';
+import HowItWorks from './components/HowItWorks';
+import Footer from './components/Footer';
 
 const HowItWorksPage = () => {
   const { t } = useTranslation(`common`);
@@ -50,7 +47,7 @@ export async function getStaticProps({
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(locale, [`common`])),
     },
   };
 }

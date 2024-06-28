@@ -2,26 +2,30 @@ import React from 'react';
 import Head from 'next/head';
 import type { GetStaticPropsContext } from 'next';
 import { useTranslation } from 'next-i18next';
-import dynamic from 'next/dynamic';
-
-// Lazy load components
-const GoogleAnalytics = dynamic(() => import('./components/GoogleAnalytics'));
-const Header = dynamic(() => import('./components/Header'));
-const Footer = dynamic(() => import('./components/Footer'));
+import Header from './components/Header';
+import GoogleAnalytics from './components/GoogleAnalytics';
+import Footer from './components/Footer';
+import { useRouter } from 'next/router';
 
 const PrivacyPolicy = () => {
   const { t: tCommon } = useTranslation('common');
   const { t: tPrivacy } = useTranslation('privacy');
 
+  const router = useRouter();
+
+  const canonicalUrl = `https://notion-avatar-maker.com${
+    router.locale === 'en' ? '' : '/' + router.locale
+  }/privacy-policy`;
+
   return (
     
     <div className="flex flex-col min-h-screen bg-white">
       <Head>
+        <GoogleAnalytics />
         <title>{tPrivacy(`privacyTitle`)}</title>
         <link rel="icon" href="/favicon/favicon.ico" />
-        <link rel="canonical" href="https://notion-avatar-maker.com/privacy-policy" />
+        <link rel="canonical" href={canonicalUrl} />
         <meta name="description" content={tCommon(`siteDescription`)} />
-        <GoogleAnalytics />
       </Head>
 
       <Header />
