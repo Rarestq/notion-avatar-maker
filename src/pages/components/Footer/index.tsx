@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="https://github.com/mayandev/notion-avatar" className="hover:text-[#ED4059]">{t(`github`)}</a></li>
               <li><a href="https://twitter.com/rarestzhou" className="hover:text-[#ED4059]">{t(`twitter`)}</a></li>
-              <li><a href="https://www.notion.so/" className="hover:text-[#ED4059]">{t(`notion`)}</a></li>
+              {/* <li><a href="https://www.notion.so/" className="hover:text-[#ED4059]">{t(`notion`)}</a></li> */}
               <li><a href="mailto:support@notion-avatar-maker.com" className="hover:text-[#ED4059]">{t(`contactUs`)}</a></li>
             </ul>
           </div>
