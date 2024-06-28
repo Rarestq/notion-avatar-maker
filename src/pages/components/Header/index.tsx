@@ -94,13 +94,6 @@ export default function Header() {
         
         <div className="flex items-center space-x-4">
           <div className="relative lang-dropdown flex items-center">
-            <Image
-              src="/icon/globe.svg"
-              alt={t(`languageLogoAlt`)}
-              width={20}
-              height={20}
-              className="mr-2"
-            />
             <button 
               onClick={() => setIsLangOpen(!isLangOpen)}
               className="bg-[#F6F6F6] text-[#4D59E3] border-none focus:outline-none flex items-center"

@@ -1,19 +1,30 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
+import { Suspense } from 'react'
 import type { GetStaticPropsContext, NextPage } from 'next';
 import Head from 'next/head';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import AvatarEditor from './components/AvatarEditor';
-import FAQs from './components/FAQs';
-import HowItWorks from './components/HowItWorks';
+import dynamic from 'next/dynamic';
+
+// Lazy load components
+const GoogleAnalytics = dynamic(() => import('./components/GoogleAnalytics'));
+const Header = dynamic(() => import('./components/Header'));
+// const AvatarEditor = dynamic(() => import('./components/AvatarEditor'));
+const FAQs = dynamic(() => import('./components/FAQs'));
+const HowItWorks = dynamic(() => import('./components/HowItWorks'));
+const Footer = dynamic(() => import('./components/Footer'));
+
+const DynamicAvatarEditor = dynamic(() => import('./components/AvatarEditor'), {
+  loading: () => <p>Loading...</p>,
+})
 
 const URL = `https://notion-avatar-maker.com/`;
 
 const Home: NextPage = () => {
   const { t } = useTranslation(`common`);
+
+  // console.log('Translation Text unsuccessfully:', t(`siteNameDescOne`), t(`siteNameDescTwo`));
+  // console.log('Translation Text:', t(`siteName`), t(`logoAlt`), t('privacyPolicy'), t('sayHi'));
 
   const howItWorksRef = useRef<HTMLDivElement>(null);
 
@@ -29,6 +40,7 @@ const Home: NextPage = () => {
     <>
     <div className="min-h-screen bg-gradient-to-b from-[#F6F1F1] to-[#F8E8EE]">
       <Head>
+        <GoogleAnalytics />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
@@ -125,22 +137,24 @@ const Home: NextPage = () => {
       <Header />
       <div className="text-center pt-10">
         <h1 className="text-4xl font-extrabold text-[#4D59E3] mb-2">
-          Notion-Avatar-Maker
+          {t(`siteName`)}
         </h1>
         <p className="text-[#4D59E3] mb-8">
-        Notion-Avatar-Maker empowers users to create distinctive, customizable avatars,
+          {t(`siteNameDescOne`)}
         <br />
-        perfect for personal branding on social platforms and creative projects.
+          {t(`siteNameDescTwo`)}
         </p>
         <Link href="#how-it-works" onClick={scrollToHowItWorks}>
             <span className="bg-white rounded-full shadow-lg text-[#4D59E3] underline cursor-pointer px-3 py-1">
-              How it works →
+            {t(`howItWorks`)} →
             </span>
         </Link>
       </div>
-      <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
-        <AvatarEditor />
-      </main>
+      <Suspense fallback={<div>Loading...</div>}>
+        <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
+          <DynamicAvatarEditor />
+        </main>
+      </Suspense>
 
       <div ref={howItWorksRef} id="how-it-works">
         <HowItWorks />
@@ -155,9 +169,11 @@ const Home: NextPage = () => {
 export async function getStaticProps({
   locale,
 }: GetStaticPropsContext & { locale: string }) {
+  const { serverSideTranslations } = await import('next-i18next/serverSideTranslations');
+  
   return {
     props: {
-      ...(await serverSideTranslations(locale, [`common`])),
+      ...(await serverSideTranslations(locale, ['common'])),
     },
   };
 }

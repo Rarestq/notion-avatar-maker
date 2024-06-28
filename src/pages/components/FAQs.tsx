@@ -1,5 +1,6 @@
 import React from 'react';
 
+{/** TODO by rarestzhou: 多语言 */}
 const FAQs = () => {
   const faqData = [
     {

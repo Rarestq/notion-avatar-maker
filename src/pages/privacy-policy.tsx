@@ -1,11 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
 import type { GetStaticPropsContext } from 'next';
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GoogleAnalytics from './components/GoogleAnalytics';
+import dynamic from 'next/dynamic';
+
+// Lazy load components
+const GoogleAnalytics = dynamic(() => import('./components/GoogleAnalytics'));
+const Header = dynamic(() => import('./components/Header'));
+const Footer = dynamic(() => import('./components/Footer'));
 
 const PrivacyPolicy = () => {
   const { t: tCommon } = useTranslation('common');
@@ -16,7 +18,7 @@ const PrivacyPolicy = () => {
     <div className="flex flex-col min-h-screen bg-white">
       <Head>
         <title>{tPrivacy(`privacyTitle`)}</title>
-        <link rel="icon" href="favicon/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
         <link rel="canonical" href="https://notion-avatar-maker.com/privacy-policy" />
         <meta name="description" content={tCommon(`siteDescription`)} />
         <GoogleAnalytics />
@@ -174,9 +176,11 @@ const PrivacyPolicy = () => {
 export async function getStaticProps({
   locale,
 }: GetStaticPropsContext & { locale: string }) {
+  const { serverSideTranslations } = await import('next-i18next/serverSideTranslations');
+  
   return {
     props: {
-      ...(await serverSideTranslations(locale, [`common`, `privacy`])),
+      ...(await serverSideTranslations(locale, ['common', `privacy`])),
     },
   };
 }

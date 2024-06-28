@@ -31,7 +31,7 @@ export default function AvatarPicker({
         <h1 className="py-4 w-full">
           {t('Choose item', {
             item: t(`${avatarPart.part}`),
-            choose: t('Choose'),
+            choose: t('choosePart'),
           })}
         </h1>
         <div className="h-auto max-h-72 overflow-scroll">
