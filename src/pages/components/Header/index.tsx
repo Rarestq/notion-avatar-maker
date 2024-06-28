@@ -72,7 +72,8 @@ export default function Header() {
             </span>
           </Link>
           
-          <div className="ml-8 relative guides-dropdown">
+          {/** TODO by rarestzhou: howitworks not render successfully */}
+          {/* <div className="ml-8 relative guides-dropdown">
             <button
               type="button"
               onClick={() => setIsGuidesOpen(!isGuidesOpen)}
@@ -90,7 +91,7 @@ export default function Header() {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
         
         <div className="flex items-center space-x-4">

@@ -142,19 +142,20 @@ const Home: NextPage = () => {
         <br />
           {t(`siteNameDescTwo`)}
         </p>
-        <Link href="#how-it-works" onClick={scrollToHowItWorks}>
+        {/** TODO by rarestzhou: howitworks not render successfully */}
+        {/* <Link href="#how-it-works" onClick={scrollToHowItWorks}>
             <span className="bg-white rounded-full shadow-lg text-[#1A237E] underline cursor-pointer px-3 py-1">
             {t(`howItWorks`)} →
             </span>
-        </Link>
+        </Link> */}
       </div>
       <main className="my-5 bg-white rounded-lg shadow-lg max-w-4xl mx-auto p-8">
         <AvatarEditor />
       </main>
 
-      <div ref={howItWorksRef} id="how-it-works">
+      {/* <div ref={howItWorksRef} id="how-it-works">
         <HowItWorks />
-      </div>
+      </div> */}
       <FAQs />
       <Footer />
     </div>
