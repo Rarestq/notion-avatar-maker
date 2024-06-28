@@ -73,13 +73,13 @@ export default function Header() {
           </Link>
           
           <div className="ml-8 relative guides-dropdown">
-            <button 
+            <button
               onClick={() => setIsGuidesOpen(!isGuidesOpen)}
               className="text-[#1A237E] hover:text-[#ED4059] focus:outline-none"
             >
               {t(`guides`)}
               <svg className="w-4 h-4 ml-1 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             {isGuidesOpen && (
@@ -94,7 +94,7 @@ export default function Header() {
         
         <div className="flex items-center space-x-4">
           <div className="relative lang-dropdown flex items-center">
-            <button 
+            <button
               onClick={() => setIsLangOpen(!isLangOpen)}
               className="bg-[#F6F6F6] text-[#4D59E3] border-none focus:outline-none flex items-center"
             >

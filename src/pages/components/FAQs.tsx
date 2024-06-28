@@ -1,6 +1,6 @@
 import type { GetStaticPropsContext } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 type FAQ = {
   question: string;
@@ -35,7 +35,7 @@ const FAQs = () => {
         </h2>
         <div className="space-y-8">
         {faqData.map((faq: FAQ, index: number) => (
-            <div key={index} className="bg-[#F6F1F1] shadow-sm rounded-lg overflow-hidden border-l-4 border-[#4D59E3]">
+            <div key={faq.question} className="bg-[#F6F1F1] shadow-sm rounded-lg overflow-hidden border-l-4 border-[#4D59E3]">
               <div className="px-6 py-4">
                 <h3 className="text-xl font-semibold text-[#4D59E3] mb-2">
                   {faq.question}

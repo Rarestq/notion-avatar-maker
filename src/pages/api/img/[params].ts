@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import chromium from 'chrome-aws-lambda';
-import { AvatarConfig, AvatarPart } from '@/types';
+import { AvatarConfig } from '@/types';
 
 // TODO: reuse this logic with svg api
 async function getBrowserInstance() {

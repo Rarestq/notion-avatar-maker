@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import chromium from 'chrome-aws-lambda';
-import { AvatarConfig, AvatarPart } from '@/types';
+import { AvatarConfig } from '@/types';
 
 async function getBrowserInstance() {
   const executablePath = await chromium.executablePath;
