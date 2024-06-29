@@ -1,32 +1,40 @@
 import React from 'react';
-import Head from 'next/head';
 import type { GetStaticPropsContext } from 'next';
-import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import Header from './components/Header';
-import GoogleAnalytics from './components/GoogleAnalytics';
 import Footer from './components/Footer';
+import PageHead from './components/PageHead';
 
 const PrivacyPolicy = () => {
-  const { t: tCommon } = useTranslation('common');
-  const { t: tPrivacy } = useTranslation('privacy');
-
-  const router = useRouter();
-
-  const canonicalUrl = `https://notion-avatar-maker.com${
-    router.locale === 'en' ? '' : `/${router.locale}`
-  }/privacy-policy`;
+  const { t: tCommon } = useTranslation(`common`);
+  const { t: tPrivacy } = useTranslation(`privacy`);
 
   return (
     
     <div className="flex flex-col min-h-screen bg-white">
-      <Head>
-        <GoogleAnalytics />
-        <title>{tPrivacy(`privacyTitle`)}</title>
-        <link rel="icon" href="/favicon/favicon.ico" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="description" content={tCommon(`siteDescription`)} />
-      </Head>
+      <PageHead
+        pagePath="/privacy-policy"
+        title={tPrivacy(`privacyTitle`)}
+        description={tCommon(`siteDescription`)}
+        ogMetaTags={
+          <>
+            <meta property="og:site_name" content={tCommon(`siteTitle`)} />
+            <meta property="og:title" content={tCommon(`siteTitle`)} />
+            <meta property="og:description" content={tCommon(`siteDescription`)} />
+          </>
+        }
+        twitterMetaTags={
+          <>
+            <meta name="twitter:title" content={tCommon(`siteTitle`)} />
+            <meta name="twitter:description" content={tCommon(`siteDescription`)} />
+          </>
+        }
+        additionalTags={
+          <>
+            {/* additionalTags here */}
+          </>
+        }
+      />
 
       <Header />
       
@@ -184,7 +192,7 @@ export async function getStaticProps({
   
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', `privacy`])),
+      ...(await serverSideTranslations(locale, [`common`, `privacy`])),
     },
   };
 }

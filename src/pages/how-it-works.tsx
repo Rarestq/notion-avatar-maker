@@ -1,35 +1,45 @@
 import React from 'react';
-import Head from 'next/head';
 import type { GetStaticPropsContext } from 'next';
 import { useTranslation } from 'next-i18next';
-import { useRouter } from 'next/router';
-import GoogleAnalytics from './components/GoogleAnalytics';
 import Header from './components/Header';
 import HowItWorks from './components/HowItWorks';
 import Footer from './components/Footer';
+import PageHead from './components/PageHead';
 
 const HowItWorksPage = () => {
   const { t } = useTranslation([`common`, `how`]);
-  const router = useRouter();
-
-  const canonicalUrl = `https://notion-avatar-maker.com${
-    router.locale === 'en' ? '' : `/${router.locale}`
-  }/how-it-works`;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#F6F1F1] to-[#F8E8EE]">
-      <Head>
-        <title>{t(`howItWorksTitle`)}</title>
-        <link rel="icon" href="/favicon/favicon.ico" />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta name="description" content={t(`howItWorksDescription`)} />
-        <GoogleAnalytics />
-      </Head>
+      <PageHead
+        pagePath="/how-it-works"
+        title={t(`howItWorksTitle`)}
+        description={t(`siteDescription`)}
+        ogMetaTags={
+          <>
+            <meta property="og:site_name" content={t(`siteTitle`)} />
+            <meta property="og:title" content={t(`siteTitle`)} />
+            <meta property="og:description" content={t(`siteDescription`)} />
+          </>
+        }
+        twitterMetaTags={
+          <>
+            <meta name="twitter:title" content={t(`siteTitle`)} />
+            <meta name="twitter:description" content={t(`siteDescription`)} />
+          </>
+        }
+        additionalTags={
+          <>
+            {/* additionalTags here */}
+          </>
+        }
+      />
 
       <Header />
       
       <main className="py-10">
         <h1 className="text-4xl font-extrabold text-[#0C359E] mb-8 text-center">{t(`howItWorks`)}</h1>
+        {/** TODO by rarestzhou: Add "About Notion-Avatar-Maker" descriptipn */}
         <HowItWorks />
       </main>
 
