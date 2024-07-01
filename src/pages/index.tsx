@@ -29,8 +29,8 @@ const Home: NextPage = () => {
     <div className="min-h-screen bg-gradient-to-b from-[#F6F1F1] to-[#F8E8EE]">
     <PageHead
         pagePath=""
-        title="Privacy Policy | Notion Avatar Maker"
-        description="Our privacy policy explains how we collect, use, and protect your information."
+        title={t(`siteTitle`)}
+        description={t(`siteDescription`)}
         ogMetaTags={
           <>
             <meta property="og:site_name" content={t(`siteTitle`)} />
