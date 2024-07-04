@@ -1,5 +1,6 @@
 import type { GetStaticPropsContext } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
@@ -7,6 +8,7 @@ import { languageOptions } from '../../../languageOptions';
 
 export default function Footer() {
   const { t } = useTranslation(`common`);
+  const router = useRouter();
 
   return (
     <footer className="bg-[#F6F1F1] text-[#1A237E] flex flex-col items-center py-12 border-t">
@@ -48,7 +50,7 @@ export default function Footer() {
           {languageOptions.map((lang) => (
             <Link 
               key={lang.code}
-              href="/" 
+              href={router.asPath}
               locale={lang.code}
               className="hover:text-[#ED4059] flex items-center"
             >
