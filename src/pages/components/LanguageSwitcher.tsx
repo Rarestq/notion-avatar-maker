@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { languageOptions, LanguageOption } from '../../languageOptions';
-import { useTranslation } from 'next-i18next';
 
 function LanguageSwitcher() {
   const [isLangOpen, setIsLangOpen] = useState(false);
   // const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
-  const { t } = useTranslation('common');
 
   const currentLang = languageOptions.find(lang => lang.code === router.locale) || languageOptions[0];
 
