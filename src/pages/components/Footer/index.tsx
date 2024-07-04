@@ -3,6 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
+import { languageOptions } from '../../../languageOptions';
 
 export default function Footer() {
   const { t } = useTranslation(`common`);
@@ -42,6 +43,19 @@ export default function Footer() {
               <li><Link href="/terms-of-service" className="hover:text-[#ED4059]">{t(`termsConditions`)}</Link></li>
             </ul>
           </div>
+        </div>
+        <div className="flex flex-wrap justify-center gap-4 mb-8 mt-8 pt-8">
+          {languageOptions.map((lang) => (
+            <Link 
+              key={lang.code}
+              href="/" 
+              locale={lang.code}
+              className="hover:text-[#ED4059] flex items-center"
+            >
+              <span className="mr-1">{lang.flag}</span>
+              {lang.label}
+            </Link>
+          ))}
         </div>
         <div className="mt-8 pt-8 border-t border-[#1A237E] text-center">
           <p>

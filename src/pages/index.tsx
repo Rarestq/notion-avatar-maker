@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
 import type { GetStaticPropsContext, NextPage } from 'next';
-import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import Header from './components/Header';
 import HowItWorks from './components/HowItWorks';
@@ -12,7 +11,6 @@ import PageHead from './components/PageHead';
 
 const Home: NextPage = () => {
   const { t } = useTranslation([`common`, `how`, `faqs`]);
-  const router = useRouter();
 
   const howItWorksRef = useRef<HTMLDivElement>(null);
 
