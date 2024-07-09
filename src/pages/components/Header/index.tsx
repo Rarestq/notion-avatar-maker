@@ -5,7 +5,12 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import LanguageSwitcher from '../LanguageSwitcher';
 import Guides from '../Guides';
+{/** 
+  TODO by rarestzhou: 
+  1:Blog page 
+  2:Discover page: https://x.com/yangyixxxx/status/1809402187677941900?s=46&t=8dSRtokKcbqspjNpuvUMyw
 
+ */}
 export default function Header() {
   const { t } = useTranslation([`common`]);
 
