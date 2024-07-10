@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <nav className="bg-[#F6F1F1] border-b-0 border-gray-200 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center">
+        <div className="flex items-center space-x-6">
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.gif"
@@ -33,6 +33,9 @@ export default function Header() {
             </span>
           </Link>
           <Guides />
+          <Link href="/discover" className="text-[#1A237E] hover:text-[#ED4059]">
+            {t(`discover`)}
+          </Link>
         </div>
         
         <div className="flex items-center space-x-4">
