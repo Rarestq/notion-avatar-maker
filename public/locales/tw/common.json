@@ -61,5 +61,24 @@
     "sayHi": "打個招呼 👋",
     "legal": "法律",
     "privacyPolicy": "隱私政策",
-    "termsConditions": "條款與條件"
+    "termsConditions": "條款與條件",
+    "discover": "發現",
+    "diverseStyleAvatars": "發現更多其他風格的頭像",
+    "discoverTitle": "發現更多風格頭像 | Notion-Avatar-Maker",
+    "discoverDescription": "探索各種風格的頭像，適用於社交媒體或個人項目，不僅僅是 Notion 風格頭像",
+    "discoverIntro": "發現各種風格的頭像，包括活力十足的 Notion 風格頭像、Apple 貼紙等等。這些充滿青春和活力的頭像非常適合您的社交媒體個人資料或個人項目。瀏覽我們的列表，找到完美的頭像來代表你！",
+    "randomAvatarsColor": "隨機頭像顏色",
+    "reset": "重置",
+    "avatarTypes": {
+        "all": "全部",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "便籤",
+        "vibrant": "活力",
+        "toon": "卡通",
+        "upstream": "Upstream",
+        "bluey": "布魯伊",
+        "teams": "Teams"
+    },
+    "loading": "🚀 加載中..."
 }

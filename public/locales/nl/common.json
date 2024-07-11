@@ -61,5 +61,24 @@
     "sayHi": "Zeg hallo 👋",
     "legal": "Juridisch",
     "privacyPolicy": "Privacybeleid",
-    "termsConditions": "Voorwaarden"
+    "termsConditions": "Voorwaarden",
+    "discover": "Ontdekken",
+    "diverseStyleAvatars": "Ontdek meer andere stijlen avatars",
+    "discoverTitle": "Ontdek meer stijlen avatars | Notion-Avatar-Maker",
+    "discoverDescription": "Verken verschillende avatarstijlen voor je sociale media of persoonlijke projecten, niet alleen Notion-stijl avatars",
+    "discoverIntro": "Ontdek een breed scala aan avatarstijlen, waaronder levendige, Notion-stijl, Apple stickers en meer. Deze jeugdige en energieke avatars zijn perfect voor je sociale mediaprofielen of persoonlijke projecten. Blader door onze collectie en vind de perfecte avatar om jou te vertegenwoordigen!",
+    "randomAvatarsColor": "Willekeurige avatars kleur",
+    "reset": "Reset",
+    "avatarTypes": {
+        "all": "Alles",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "Memo",
+        "vibrant": "Levendig",
+        "toon": "Toon",
+        "upstream": "Upstream",
+        "bluey": "Bluey",
+        "teams": "Teams"
+    },
+    "loading": "🚀 Laden..."
 }

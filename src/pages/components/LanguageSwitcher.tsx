@@ -1,10 +1,13 @@
+import { GetStaticPropsContext } from 'next';
+import { useTranslation } from 'next-i18next';
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { languageOptions, LanguageOption } from '../../languageOptions';
 
 function LanguageSwitcher() {
+  const { t } = useTranslation([`common`]);
   const [isLangOpen, setIsLangOpen] = useState(false);
-  // const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
   const currentLang = languageOptions.find(lang => lang.code === router.locale) || languageOptions[0];
@@ -25,9 +28,9 @@ function LanguageSwitcher() {
 
   const changeLanguage = async (langOption: LanguageOption) => {
     if (langOption.code !== router.locale) {
-      // setIsLoading(true);
+      setIsLoading(true);
       await router.push(router.pathname, router.asPath, { locale: langOption.code });
-      // setIsLoading(false);
+      setIsLoading(false);
     }
     setIsLangOpen(false);
   };
@@ -64,15 +67,27 @@ function LanguageSwitcher() {
           ))}
         </div>
       )}
-      {/* {isLoading && (
+      {isLoading && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-4 rounded-md">
-            <p>{t('loading')}</p>
+            <p>{t(`loading`)}</p>
           </div>
         </div>
-      )} */}
+      )}
     </div>
   );
+}
+
+export async function getStaticProps({
+  locale,
+}: GetStaticPropsContext & { locale: string }) {
+  const { serverSideTranslations } = await import('next-i18next/serverSideTranslations');
+  
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [`common`])),
+    },
+  };
 }
 
 export default LanguageSwitcher;

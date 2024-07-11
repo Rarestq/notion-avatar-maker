@@ -61,5 +61,24 @@
     "sayHi": "¡Saluda! 👋",
     "legal": "Legal",
     "privacyPolicy": "Política de privacidad",
-    "termsConditions": "Términos y condiciones"
+    "termsConditions": "Términos y condiciones",
+    "discover": "Descubrir",
+    "diverseStyleAvatars": "Descubre más otros estilos de avatares",
+    "discoverTitle": "Descubre más estilos de avatares | Notion-Avatar-Maker",
+    "discoverDescription": "Explora varios estilos de avatares para tus redes sociales o proyectos personales, no solo avatares de estilo Notion",
+    "discoverIntro": "Descubre una amplia variedad de estilos de avatares, incluyendo vibrantes, estilo Notion, pegatinas de Apple y más. Estos avatares juveniles y enérgicos son perfectos para tus perfiles en redes sociales o proyectos personales. ¡Explora nuestra colección y encuentra el avatar perfecto para representarte!",
+    "randomAvatarsColor": "Colores de avatares aleatorios",
+    "reset": "Reiniciar",
+    "avatarTypes": {
+        "all": "Todo",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "Nota",
+        "vibrant": "Vibrante",
+        "toon": "Toon",
+        "upstream": "Upstream",
+        "bluey": "Bluey",
+        "teams": "Teams"
+    },
+    "loading": "🚀 Cargando..."
 }

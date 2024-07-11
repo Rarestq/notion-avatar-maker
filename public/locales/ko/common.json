@@ -61,5 +61,24 @@
     "sayHi": "안녕하세요 👋",
     "legal": "법적 고지",
     "privacyPolicy": "개인정보 처리방침",
-    "termsConditions": "이용 약관"
+    "termsConditions": "이용 약관",
+    "discover": "발견하다",
+    "diverseStyleAvatars": "다양한 스타일의 아바타 발견",
+    "discoverTitle": "더 많은 스타일 아바타 발견 | Notion-Avatar-Maker",
+    "discoverDescription": "소셜 미디어 또는 개인 프로젝트를 위한 다양한 아바타 스타일을 탐험하세요, Notion 스타일 아바타뿐만 아니라",
+    "discoverIntro": "다양한 아바타 스타일을 발견하세요, 활기찬 Notion 스타일, Apple 스티커 등. 이 젊고 에너제틱한 아바타들은 소셜 미디어 프로필이나 개인 프로젝트에 완벽합니다. 우리의 컬렉션을 둘러보고 당신을 대표할 완벽한 아바타를 찾으세요!",
+    "randomAvatarsColor": "아바타 색상 랜덤화",
+    "reset": "재설정",
+    "avatarTypes": {
+        "all": "전체",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "메모",
+        "vibrant": "활기찬",
+        "toon": "툰",
+        "upstream": "Upstream",
+        "bluey": "블루이",
+        "teams": "Teams"
+    },
+    "loading": "🚀 로딩 중..."
 }

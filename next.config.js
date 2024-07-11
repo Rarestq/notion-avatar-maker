@@ -21,7 +21,7 @@ module.exports = withPWA(
       return config;
     },
     // images: {
-    //   domains: ['notion-avatar-maker.com'],
+    //   domains: ['static.notion-avatar-maker.com'],
     // },
   }
 );

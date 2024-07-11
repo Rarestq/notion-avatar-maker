@@ -61,5 +61,24 @@
     "sayHi": "こんにちは 👋",
     "legal": "法的",
     "privacyPolicy": "プライバシーポリシー",
-    "termsConditions": "利用規約"
+    "termsConditions": "利用規約",
+    "discover": "発見する",
+    "diverseStyleAvatars": "他のスタイルのアバターをもっと見る",
+    "discoverTitle": "もっと多くのスタイルのアバターを発見する | Notion-Avatar-Maker",
+    "discoverDescription": "ソーシャルメディアや個人プロジェクトのために、様々なアバタースタイルを探検しましょう、Notionスタイルアバターだけではありません",
+    "discoverIntro": "多様なアバタースタイルを発見しましょう、活気のあるNotionスタイル、Appleステッカーなど。これらの若々しくエネルギッシュなアバターは、あなたのソーシャルメディアプロフィールや個人プロジェクトに最適です。私たちのコレクションを閲覧して、あなたを代表する完璧なアバターを見つけてください！",
+    "randomAvatarsColor": "アバターの色をランダム化",
+    "reset": "リセット",
+    "avatarTypes": {
+        "all": "すべて",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "メモ",
+        "vibrant": "活気",
+        "toon": "トゥーン",
+        "upstream": "Upstream",
+        "bluey": "ブルーイ",
+        "teams": "Teams"
+    },
+    "loading": "🚀 読み込み中..."
 }

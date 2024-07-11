@@ -61,5 +61,24 @@
     "sayHi": "Sagen Sie Hallo 👋",
     "legal": "Rechtliches",
     "privacyPolicy": "Datenschutz-Bestimmungen",
-    "termsConditions": "Geschäftsbedingungen"
+    "termsConditions": "Geschäftsbedingungen",
+    "discover": "Entdecken",
+    "diverseStyleAvatars": "Entdecken Sie weitere Avatar-Stile",
+    "discoverTitle": "Entdecken Sie weitere Avatar-Stile | Notion-Avatar-Maker",
+    "discoverDescription": "Erkunden Sie verschiedene Avatar-Stile für Ihre sozialen Medien oder persönlichen Projekte, nicht nur Notion-Stil-Avatare",
+    "discoverIntro": "Entdecken Sie eine Vielzahl von Avatar-Stilen, darunter lebendige Notion-Stile, Apple-Sticker und mehr. Diese jugendlichen und energiegeladenen Avatare sind perfekt für Ihre sozialen Medienprofile oder persönlichen Projekte. Durchstöbern Sie unsere Sammlung und finden Sie den perfekten Avatar, der Sie repräsentiert!",
+    "randomAvatarsColor": "Avatar-Farben zufällig",
+    "reset": "Zurücksetzen",
+    "avatarTypes": {
+        "all": "Alle",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "Memo",
+        "vibrant": "Lebendig",
+        "toon": "Toon",
+        "upstream": "Upstream",
+        "bluey": "Bluey",
+        "teams": "Teams"
+    },
+    "loading": "🚀 Wird geladen..."
 }

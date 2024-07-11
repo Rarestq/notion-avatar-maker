@@ -61,5 +61,24 @@
     "sayHi": "Dites bonjour 👋",
     "legal": "Légal",
     "privacyPolicy": "Politique de confidentialité",
-    "termsConditions": "Conditions générales"
+    "termsConditions": "Conditions générales",
+    "discover": "Découvrir",
+    "diverseStyleAvatars": "Découvrez plus d'autres styles d'avatars",
+    "discoverTitle": "Découvrez plus de styles d'avatars | Notion-Avatar-Maker",
+    "discoverDescription": "Explorez divers styles d'avatars pour vos réseaux sociaux ou projets personnels, pas seulement des avatars de style Notion",
+    "discoverIntro": "Découvrez une grande variété de styles d'avatars, y compris des avatars vibrants, de style Notion, des stickers Apple et plus encore. Ces avatars jeunes et énergiques sont parfaits pour vos profils sur les réseaux sociaux ou vos projets personnels. Parcourez notre collection et trouvez l'avatar parfait pour vous représenter !",
+    "randomAvatarsColor": "Couleur des avatars aléatoire",
+    "reset": "Réinitialiser",
+    "avatarTypes": {
+        "all": "Tout",
+        "notion": "Notion",
+        "3d": "3D",
+        "memo": "Mémo",
+        "vibrant": "Vibrant",
+        "toon": "Toon",
+        "upstream": "Upstream",
+        "bluey": "Bluey",
+        "teams": "Teams"
+    },
+    "loading": "🚀 Chargement..."
 }
