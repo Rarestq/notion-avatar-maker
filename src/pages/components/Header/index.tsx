@@ -5,6 +5,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import LanguageSwitcher from '../LanguageSwitcher';
 import Guides from '../Guides';
+
 {/** 
   TODO by rarestzhou: 
   1:Blog page 
