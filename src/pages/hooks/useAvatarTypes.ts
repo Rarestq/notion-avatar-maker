@@ -29,3 +29,5 @@ export const useAvatarTypes = () => {
 
   return { avatarTypes, selectedType, setSelectedType };
 };
+
+export default useAvatarTypes;
