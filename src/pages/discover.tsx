@@ -7,10 +7,10 @@ import AvatarGrid from './components/AvatarGrid';
 import TypeSelector from './components/TypeSelector';
 import Pagination from './components/Pagination';
 import ColorChangeButtons from './components/ColorChangeButtons';
-import { useAvatarTypes } from './hooks/useAvatarTypes';
-import { useAvatarFilter } from './hooks/useAvatarFilter';
-import { usePagination } from './hooks/usePagination';
-import { useColorChange } from './hooks/useColorChange';
+import { useAvatarTypes } from '../hooks/useAvatarTypes';
+import { useAvatarFilter } from '../hooks/useAvatarFilter';
+import { usePagination } from '../hooks/usePagination';
+import { useColorChange } from '../hooks/useColorChange';
 
 interface DiscoverProps {
   avatars: string[];

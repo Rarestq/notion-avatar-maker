@@ -21,5 +21,3 @@ export const useColorChange = (avatars: string[]) => {
 
   return { avatarColors, changeBackgroundColors, resetAvatarColors };
 };
-
-export default useColorChange;

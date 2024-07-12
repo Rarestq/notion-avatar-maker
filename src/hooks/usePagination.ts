@@ -15,5 +15,3 @@ export const usePagination = (items: any[], itemsPerPage: number) => {
 
   return { currentItems, currentPage, totalPages, paginate };
 };
-
-export default usePagination;

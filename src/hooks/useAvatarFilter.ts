@@ -13,5 +13,3 @@ export const useAvatarFilter = (avatars: string[], selectedType: string) => {
 
   return { filteredAvatars };
 };
-
-export default useAvatarFilter;
