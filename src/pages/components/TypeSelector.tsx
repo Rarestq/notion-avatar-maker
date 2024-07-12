@@ -24,7 +24,10 @@ const TypeSelector: React.FC<TypeSelectorProps> = ({ avatarTypes, selectedType, 
   return (
     <div className={`relative mb-6 ${showScrollButtons ? 'px-12' : 'px-4'}`}>
       {showScrollButtons && (
-        <button onClick={() => scroll('left')} className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white shadow-md rounded-full p-2">
+        <button 
+          type="button" 
+          onClick={() => scroll('left')} 
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white shadow-md rounded-full p-2">
           &lt;
         </button>
       )}
@@ -34,6 +37,7 @@ const TypeSelector: React.FC<TypeSelectorProps> = ({ avatarTypes, selectedType, 
       >
         {avatarTypes.map(type => (
           <button
+            type="button"
             key={type.key}
             onClick={() => setSelectedType(type.key)}
             className={`px-4 py-2 rounded transition-colors duration-200 whitespace-nowrap ${
@@ -47,7 +51,10 @@ const TypeSelector: React.FC<TypeSelectorProps> = ({ avatarTypes, selectedType, 
         ))}
       </div>
       {showScrollButtons && (
-        <button onClick={() => scroll('right')} className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white shadow-md rounded-full p-2">
+        <button 
+          type="button" 
+          onClick={() => scroll('right')} 
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white shadow-md rounded-full p-2">
           &gt;
         </button>
       )}

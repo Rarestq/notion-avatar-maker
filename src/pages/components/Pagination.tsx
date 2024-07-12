@@ -11,7 +11,11 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, pagina
   
     return (
       <div className="flex justify-center items-center space-x-2 mb-8">
-        <button onClick={() => paginate(currentPage - 1)} disabled={currentPage === 1} className="px-3 py-1 bg-gray-200 rounded">
+        <button 
+          type="button" 
+          onClick={() => paginate(currentPage - 1)} 
+          disabled={currentPage === 1} 
+          className="px-3 py-1 bg-gray-200 rounded">
           &lt;
         </button>
         {[...Array(totalPages).keys()].map(number => (
@@ -23,7 +27,11 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, pagina
             {number + 1}
           </button>
         ))}
-        <button onClick={() => paginate(currentPage + 1)} disabled={currentPage === totalPages} className="px-3 py-1 bg-gray-200 rounded">
+        <button 
+          type="button" 
+          onClick={() => paginate(currentPage + 1)} 
+          disabled={currentPage === totalPages} 
+          className="px-3 py-1 bg-gray-200 rounded">
           &gt;
         </button>
       </div>

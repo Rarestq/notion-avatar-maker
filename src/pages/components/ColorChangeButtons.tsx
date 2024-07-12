@@ -19,6 +19,7 @@ const ColorChangeButtons: React.FC<ColorChangeButtonsProps> = ({ changeBackgroun
         onMouseLeave={() => setIsRandomBtnHovered(false)}
       >
         <button
+          type="button"
           onClick={changeBackgroundColors}
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-3 rounded-full shadow-lg transition-all duration-300 ease-in-out flex items-center justify-center transform w-14 h-14"
           title={isRandomBtnHovered ? t(`randomAvatarsColor`) : ""}
@@ -33,6 +34,7 @@ const ColorChangeButtons: React.FC<ColorChangeButtonsProps> = ({ changeBackgroun
         onMouseLeave={() => setIsResetBtnHovered(false)}
       >
         <button
+          type="button"
           onClick={resetAvatarColors}
           className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-3 rounded-full shadow-lg transition-all duration-300 ease-in-out flex items-center justify-center transform w-14 h-14"
           title={isResetBtnHovered ? t(`reset`) : ""}

@@ -50,6 +50,7 @@ const AvatarGrid: React.FC<AvatarGridProps> = ({ currentItems, avatarColors }) =
             style={{ backgroundColor: avatarColors[index % avatarColors.length] }}
           >
             <button
+              type="button"
               onClick={() => copyImageUrl(avatar)}
               className="mr-2 p-1 rounded-full bg-white-500 text-white hover:bg-blue-300 transition-colors duration-200"
               title={t(`copy`)}
@@ -62,6 +63,7 @@ const AvatarGrid: React.FC<AvatarGridProps> = ({ currentItems, avatarColors }) =
               />
             </button>
             <button
+              type="button"
               onClick={() => downloadImage(avatar)}
               className="p-1 rounded-full bg-white-500 text-white hover:bg-blue-300 transition-colors duration-200"
               title={t(`download`)}
