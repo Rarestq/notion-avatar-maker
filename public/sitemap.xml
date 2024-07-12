@@ -6,244 +6,300 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://notion-avatar-maker.com/</loc>
-  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://notion-avatar-maker.com/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://notion-avatar-maker.com/privacy-policy</loc>
-  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/terms-of-service</loc>
-  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/how-it-works</loc>
-  <lastmod>2024-06-28T12:33:37+00:00</lastmod>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
   <loc>https://notion-avatar-maker.com/zh</loc>
-  <lastmod>2024-06-29T04:18:14+00:00</lastmod>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/tw</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ko</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ja</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/de</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/es</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/fr</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/nl</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/pt</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ar</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/zh/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/tw/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ko/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ja/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/de/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/es/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/fr/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/nl/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/pt/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ar/discover</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/zh/privacy-policy</loc>
-  <lastmod>2024-06-29T04:18:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/zh/terms-of-service</loc>
-  <lastmod>2024-06-29T04:18:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/zh/how-it-works</loc>
-  <lastmod>2024-06-29T04:18:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/tw</loc>
-  <lastmod>2024-06-29T04:20:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/tw/privacy-policy</loc>
-  <lastmod>2024-06-29T04:20:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/tw/terms-of-service</loc>
-  <lastmod>2024-06-29T04:20:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/tw/how-it-works</loc>
-  <lastmod>2024-06-29T04:20:18+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/nl</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/nl/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/nl/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/nl/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/pt</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/pt/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/pt/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/pt/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/ko</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/ko/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/ko/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/ko/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/ja</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/ja/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/ja/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/ja/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/fr</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/fr/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/fr/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/fr/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/es</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/es/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/es/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notion-avatar-maker.com/es/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>https://notion-avatar-maker.com/de</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/de/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notion-avatar-maker.com/de/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://notion-avatar-maker.com/es/privacy-policy</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notion-avatar-maker.com/de/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://notion-avatar-maker.com/fr/privacy-policy</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-
 <url>
-  <loc>https://notion-avatar-maker.com/ar</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <loc>https://notion-avatar-maker.com/nl/privacy-policy</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/pt/privacy-policy</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/ar/privacy-policy</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/zh/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/tw/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ko/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ja/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/de/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/es/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/fr/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/nl/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/pt/terms-of-service</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/ar/terms-of-service</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/zh/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/tw/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ko/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/ja/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/de/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/es/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/fr/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/nl/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notion-avatar-maker.com/pt/how-it-works</loc>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notion-avatar-maker.com/ar/how-it-works</loc>
-  <lastmod>2024-06-29T04:22:15+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-07-12T02:41:50+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
