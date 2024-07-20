@@ -10,12 +10,14 @@ export default function Footer() {
   const { t } = useTranslation(`common`);
   const router = useRouter();
 
+  const encodedEmail = 'support' + '@' + 'notion-avatar-maker.com';
+
   return (
     <footer className="bg-[#F6F1F1] text-[#1A237E] flex flex-col items-center py-12 border-t">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <Image src="/logo.gif" alt={t(`logoAlt`)} width={50} height={50} unoptimized />
+            <Image src="/logo.gif" alt={t(`logoAlt`)} width={50} height={50} priority />
             {/* <br /> */}
             <span className="text-lg text-[#ED4059] ml-2">
               {t(`siteName`)}
@@ -27,6 +29,8 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`siteName`)}</Link></li>
               <li><Link href="/discover" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`discover`)}</Link></li>
+              {/* TODO by rarestzhou： 多语言配置 */}
+              {/* <li><Link href="/blog" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`blog`)}</Link></li> */}
               {/* Add more links as needed */}
             </ul>
           </div>
@@ -36,7 +40,7 @@ export default function Footer() {
               <li><a href="https://github.com/mayandev/notion-avatar" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`github`)}</a></li>
               <li><a href="https://twitter.com/rarestzhou" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`twitter`)}</a></li>
               {/* <li><a href="https://www.notion.so/" className="hover:text-[#ED4059]">{t(`notion`)}</a></li> */}
-              <li><a href="mailto:support@notion-avatar-maker.com" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`contactUs`)}</a></li>
+              <li><a href={`mailto:${encodedEmail}`} className="text-[#3F51B5] hover:text-[#ED4059]">{t(`contactUs`)}</a></li>
             </ul>
           </div>
           <div>
