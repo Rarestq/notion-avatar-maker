@@ -31,7 +31,6 @@ export default function Header() {
           <Link href="/discover" className="text-[#1A237E] hover:text-[#ED4059]">
             {t(`discover`)}
           </Link>
-          {/* TODO by rarestzhou: 多语言配置*/}
           {/* <Link href="/blog" className="text-[#1A237E] hover:text-[#ED4059]">
             {t(`blog`)} 
           </Link> */}

@@ -10,7 +10,7 @@ export default function Footer() {
   const { t } = useTranslation(`common`);
   const router = useRouter();
 
-  const encodedEmail = 'support' + '@' + 'notion-avatar-maker.com';
+  const encodedEmail = t('contactEmail');
 
   return (
     <footer className="bg-[#F6F1F1] text-[#1A237E] flex flex-col items-center py-12 border-t">
