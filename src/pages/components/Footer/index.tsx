@@ -30,6 +30,7 @@ export default function Footer() {
               <li><Link href="/" className="text-[#3F51B5] hover:text-[#ED4059]" title={t(`siteName`)}>{t(`siteName`)}</Link></li>
               <li><Link href="/discover" className="text-[#3F51B5] hover:text-[#ED4059]" title={t(`discover`)}>{t(`discover`)}</Link></li>
               <li><Link href="https://woy.ai/" className="text-[#3F51B5] hover:text-[#ED4059]" title="Woy AI Tools Directory">Woy AI Tools</Link></li>
+              <li><Link href="https://tap4.ai/" className="text-[#3F51B5] hover:text-[#ED4059]" title="Tap4 AI Tools Directory">Tap4 AI Tools Diresctory</Link></li>
               {/* TODO by rarestzhou： 多语言配置 */}
               {/* <li><Link href="/blog" className="text-[#3F51B5] hover:text-[#ED4059]">{t(`blog`)}</Link></li> */}
               {/* Add more links as needed */}
