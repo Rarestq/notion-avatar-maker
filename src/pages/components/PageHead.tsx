@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import GoogleAnalytics from './GoogleAnalytics';
+import GoogleAdsense from './GoogleAdsense';
 
 interface Locale {
   code: string;
@@ -63,6 +64,7 @@ const PageHead: React.FC<PageHeadProps> = ({
 
   return (
     <Head>
+      <GoogleAdsense />
       <GoogleAnalytics />
       <title>{title}</title>
       <meta name="description" content={description} />
