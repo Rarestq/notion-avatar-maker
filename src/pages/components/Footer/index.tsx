@@ -69,7 +69,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-[#1A237E] text-center text-[#3F51B5]">
           <p>
             <a href="https://abstractlab.gumroad.com/l/noto-avatar" className="hover:text-[#ED4059]">
-              &copy; {t(`illustrations`)}
+              &copy; {t(`illustrations`).replace('YYYY', new Date().getFullYear().toString())}
             </a>
             {t(`designedBy`)}
             <a href="https://twitter.com/felix12777" className="hover:text-[#ED4059]">
